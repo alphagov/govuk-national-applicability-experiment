@@ -2,14 +2,34 @@ require 'json'
 require 'rake/clean'
 require 'csv'
 
-# In the real thing we'd read these from the CSV file/database
-DOCUMENT_IDS = [1, 2, 3, 4]
+SEED = 0.5
 
 directory 'input'
 directory 'output'
 directory 'data'
 
-DOCUMENT_IDS.each do |id|
+desc 'Randomly select 100 content ids to use as training data'
+file 'data/training_ids.txt' => ['data', 'data/national_applicability.csv'] do |f|
+  raw_data = CSV.read('data/national_applicability.csv')
+  sample = raw_data.shuffle(random: Random.new(SEED)).take(100)
+
+  File.open('data/training_ids.txt', 'w') do |file|
+    sample.each do |row|
+      id = row[0]
+      file.puts(id)
+    end
+  end
+end
+
+def training_ids
+  if File.exist?('data/training_ids.txt')
+    File.readlines('data/training_ids.txt', chomp: true)
+  else
+    []
+  end
+end
+
+training_ids.each do |id|
   desc "Prepare input file #{id}.json"
   file "input/#{id}.json" => ['input', 'data/national_applicability.csv'] do |f|
     puts "Creating #{f.name}"
@@ -18,7 +38,7 @@ DOCUMENT_IDS.each do |id|
 end
 
 # Could have a loop over prompts, models etc here
-DOCUMENT_IDS.each do |id|
+training_ids.each do |id|
   desc "Prepare output file #{id}.json"
   file "output/#{id}.json" => ['output', "input/#{id}.json"] do |f|
     puts "Creating #{f.name}"
@@ -26,7 +46,7 @@ DOCUMENT_IDS.each do |id|
   end
 end
 
-file 'results.csv' => DOCUMENT_IDS.map { |id| "output/#{id}.json" } do |f|
+file 'results.csv' => training_ids.map { |id| "output/#{id}.json" } do |f|
   puts "Creating #{f.name}"
 
   CSV.open(f.name, 'w') do |csv|
@@ -50,6 +70,11 @@ file 'data/national_applicability.csv' => 'data' do
   system("govuk-docker down content-store-lite")
 end
 
-task default: %w[results.csv]
+task :setup => ['data/training_ids.txt']
+
+task :default do
+  Rake::Task['setup'].invoke
+  exec('rake', 'results.csv')
+end
 
 CLOBBER.include('output', 'input', 'data', 'results.csv')
