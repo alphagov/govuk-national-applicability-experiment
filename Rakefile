@@ -7,10 +7,11 @@ DOCUMENT_IDS = [1, 2, 3, 4]
 
 directory 'input'
 directory 'output'
+directory 'data'
 
 DOCUMENT_IDS.each do |id|
   desc "Prepare input file #{id}.json"
-  file "input/#{id}.json" => 'input' do |f|
+  file "input/#{id}.json" => ['input', 'data/national_applicability.csv'] do |f|
     puts "Creating #{f.name}"
     File.write(f.name, { body: "Body for #{id}" }.to_json)
   end
@@ -39,6 +40,16 @@ file 'results.csv' => DOCUMENT_IDS.map { |id| "output/#{id}.json" } do |f|
   end
 end
 
+desc 'Prepare input CSV file by querying content store database'
+file 'data/national_applicability.csv' => 'data' do
+  query_file = File.join(File.dirname(__FILE__), 'query.sql')
+  output = File.join(File.dirname(__FILE__), 'data', 'national_applicability.csv')
+
+  system("govuk-docker up -d content-store-lite")
+  system("docker exec -i govuk-docker-content-store-lite-1 rails db < #{query_file} > #{output}")
+  system("govuk-docker down content-store-lite")
+end
+
 task default: %w[results.csv]
 
-CLOBBER.include('output', 'input', 'results.csv')
+CLOBBER.include('output', 'input', 'data', 'results.csv')
