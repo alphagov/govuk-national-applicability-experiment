@@ -17,4 +17,5 @@ COPY (
   from content_items_with_national_applicability
   where first_published_at >= '2024-01-01'
     and applies_to_england is not null
+  limit 500
 ) to STDOUT WITH CSV HEADER;
