@@ -2,6 +2,8 @@ require 'json'
 require 'rake/clean'
 require 'csv'
 require 'nokogiri'
+require 'open3'
+require 'tempfile'
 
 SEED = 0.5
 
@@ -58,11 +60,31 @@ training_ids.each do |id|
 end
 
 # Could have a loop over prompts, models etc here
+prompt = "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Island). State whether it applies to England and give a short explanation (less than 100 words) for your decision."
+
 training_ids.each do |id|
   desc "Prepare output file #{id}.json"
   file "output/#{id}.json" => ['output', "input/#{id}.json"] do |f|
-    puts "Creating #{f.name}"
-    File.write(f.name, { body: "Body for #{id}" }.to_json)
+    input = JSON.load_file("input/#{id}.json")
+    input_body = input['body']
+
+    Tempfile.create do |tempfile|
+      tempfile.puts(input_body)
+      tempfile.rewind
+
+      stdout, stderr, status = Open3.capture3(
+        'llm',
+        '-m', 'openrouter/openai/gpt-4o-mini',
+        '--schema', 'applies_to_england bool, reason',
+        '--system', "'#{prompt}'",
+        stdin_data: tempfile.read
+      )
+
+      output_json = JSON.parse(stdout)
+
+      puts "Creating #{f.name}"
+      File.write(f.name, { prompt: }.merge(output_json).to_json)
+    end
   end
 end
 
