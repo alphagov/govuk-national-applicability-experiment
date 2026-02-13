@@ -41,7 +41,7 @@ def to_boolean(s)
 end
 
 def strip_tags(s)
-  Nokogiri.HTML(s).text
+  Nokogiri.HTML(s).text.gsub(/\\n\s*/, " ")
 end
 
 training_ids.each do |id|
