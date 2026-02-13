@@ -10,8 +10,7 @@ directory 'data'
 
 desc 'Randomly select 100 content ids to use as training data'
 file 'data/training_ids.txt' => ['data', 'data/national_applicability.csv'] do |f|
-  raw_data = CSV.read('data/national_applicability.csv')
-  sample = raw_data.shuffle(random: Random.new(SEED)).take(100)
+  sample = raw_data.to_a[1..].sample(100, random: Random.new(SEED))
 
   File.open('data/training_ids.txt', 'w') do |file|
     sample.each do |row|
@@ -29,11 +28,20 @@ def training_ids
   end
 end
 
+def raw_data
+  @data ||= CSV.read('data/national_applicability.csv', headers: true)
+end
+
 training_ids.each do |id|
   desc "Prepare input file #{id}.json"
   file "input/#{id}.json" => ['input', 'data/national_applicability.csv'] do |f|
     puts "Creating #{f.name}"
-    File.write(f.name, { body: "Body for #{id}" }.to_json)
+    data = raw_data.find {|r| r['id'] == id}
+
+    File.write(f.name, {
+                 body: data['body'],
+                 applies_to_england: data['applies_to_england']
+               }.to_json)
   end
 end
 
