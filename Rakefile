@@ -32,6 +32,13 @@ def raw_data
   @data ||= CSV.read('data/national_applicability.csv', headers: true)
 end
 
+def to_boolean(s)
+  case s.downcase
+  when "t" then true
+  when "f" then false
+  end
+end
+
 training_ids.each do |id|
   desc "Prepare input file #{id}.json"
   file "input/#{id}.json" => ['input', 'data/national_applicability.csv'] do |f|
@@ -40,7 +47,7 @@ training_ids.each do |id|
 
     File.write(f.name, {
                  body: data['body'],
-                 applies_to_england: data['applies_to_england']
+                 applies_to_england: to_boolean(data['applies_to_england'])
                }.to_json)
   end
 end
