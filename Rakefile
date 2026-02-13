@@ -1,6 +1,7 @@
 require 'json'
 require 'rake/clean'
 require 'csv'
+require 'nokogiri'
 
 SEED = 0.5
 
@@ -39,6 +40,10 @@ def to_boolean(s)
   end
 end
 
+def strip_tags(s)
+  Nokogiri.HTML(s).text
+end
+
 training_ids.each do |id|
   desc "Prepare input file #{id}.json"
   file "input/#{id}.json" => ['input', 'data/national_applicability.csv'] do |f|
@@ -46,7 +51,7 @@ training_ids.each do |id|
     data = raw_data.find {|r| r['id'] == id}
 
     File.write(f.name, {
-                 body: data['body'],
+                 body: strip_tags(data['body']),
                  applies_to_england: to_boolean(data['applies_to_england'])
                }.to_json)
   end
