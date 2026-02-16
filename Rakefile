@@ -92,12 +92,15 @@ file 'results.csv' => training_ids.map { |id| "output/#{id}.json" } do |f|
   puts "Creating #{f.name}"
 
   CSV.open(f.name, 'w') do |csv|
-    csv << ['id', 'body']  # header row
+    csv << ['id', 'applies_to_england_input', 'applies_to_england_output', 'reason']
 
-    Dir.glob('output/*.json') do |f|
-      data = JSON.parse(File.read(f))
-      id = File.basename(f, '.json')
-      csv << [id, data['body']]
+    training_ids.each do |id|
+      input_fn = "input/#{id}.json"
+      output_fn = "output/#{id}.json"
+      input_json = JSON.load_file(input_fn)
+      output_json = JSON.load_file(output_fn)
+
+      csv << [id, input_json['applies_to_england'], output_json['applies_to_england'], output_json['reason']]
     end
   end
 end
