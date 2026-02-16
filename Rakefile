@@ -6,9 +6,12 @@ require 'open3'
 require 'tempfile'
 
 SEED = 0.5
+NATIONS = ['england', 'scotland']
 
 directory 'input'
-directory 'output'
+NATIONS.each do |nation|
+  directory "output/#{nation}"
+end
 directory 'data'
 
 desc 'Randomly select 250 content ids to use as training data'
@@ -63,81 +66,92 @@ end
 desc 'Regenerate all files in input/'
 task :inputs => training_ids.map { |id| "input/#{id}.json" }
 
-# Could have a loop over prompts, models etc here
-prompt = "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to England and give a short explanation (less than 100 words) for your decision."
+NATIONS.each do |nation|
+  training_ids.each do |id|
+    desc "Prepare output file #{id}.json"
+    file "output/#{nation}/#{id}.json" => ["output/#{nation}", "input/#{id}.json"] do |f|
+      input = JSON.load_file("input/#{id}.json")
+      input_body = input['body']
 
-training_ids.each do |id|
-  desc "Prepare output file #{id}.json"
-  file "output/#{id}.json" => ['output', "input/#{id}.json"] do |f|
-    input = JSON.load_file("input/#{id}.json")
-    input_body = input['body']
+      prompt = "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to #{nation} and give a short explanation (less than 100 words) for your decision."
 
-    Tempfile.create do |tempfile|
-      tempfile.puts(input_body)
-      tempfile.rewind
+      output = {
+        prompt:,
+      }
 
-      stdout, stderr, status = Open3.capture3(
-        'llm',
-        '-m', 'openrouter/openai/gpt-4o-mini',
-        '--schema', 'applies_to_england bool, reason',
-        '--system', "'#{prompt}'",
-        stdin_data: tempfile.read
-      )
+      Tempfile.create do |tempfile|
+        tempfile.puts(input_body)
+        tempfile.rewind
 
-      output_json = JSON.parse(stdout)
+        stdout, stderr, status = Open3.capture3(
+          'llm',
+          '-m', 'openrouter/openai/gpt-4o-mini',
+          '--schema', 'applies_to_nation bool, reason',
+          '--system', "'#{prompt}'",
+          stdin_data: tempfile.read
+        )
+
+        output_json = JSON.parse(stdout)
+        output.merge!(output_json)
+      end
 
       puts "Creating #{f.name}"
-      File.write(f.name, { prompt: }.merge(output_json).to_json)
+      File.write(f.name, output.to_json)
     end
   end
 end
 
-file 'results.csv' => training_ids.map { |id| "output/#{id}.json" } do |f|
-  puts "Creating #{f.name}"
+NATIONS.each do |nation|
+  file "output/#{nation}/results.csv" => training_ids.map { |id| "output/#{nation}/#{id}.json" } do |f|
+    puts "Creating #{f.name}"
 
-  CSV.open(f.name, 'w') do |csv|
-    csv << ['id', 'applies_to_england_input', 'applies_to_england_output', 'reason']
+    CSV.open(f.name, 'w') do |csv|
+      csv << ['id', 'applies_to_nation_input', 'applies_to_nation_output', 'reason']
 
-    training_ids.each do |id|
-      input_fn = "input/#{id}.json"
-      output_fn = "output/#{id}.json"
-      input_json = JSON.load_file(input_fn)
-      output_json = JSON.load_file(output_fn)
+      training_ids.each do |id|
+        input_fn = "input/#{id}.json"
+        output_fn = "output/#{nation}/#{id}.json"
+        input_json = JSON.load_file(input_fn)
+        output_json = JSON.load_file(output_fn)
 
-      csv << [id, input_json['applies_to_england'], output_json['applies_to_england'], output_json['reason']]
+        csv << [id, input_json["applies_to_#{nation}"], output_json['applies_to_nation'], output_json['reason']]
+      end
     end
   end
 end
 
-file 'summary.txt' => 'results.csv' do |f|
-  results = CSV.read('results.csv', headers: true)
+NATIONS.each do |nation|
+  file "output/#{nation}/summary.txt" => "output/#{nation}/results.csv" do |f|
+    puts "Creating #{f.name}"
+    results = CSV.read(f.prerequisites[0], headers: true)
 
-  true_positive = 0
-  true_negative = 0
-  false_positive = 0
-  false_negative = 0
+    true_positive = 0
+    true_negative = 0
+    false_positive = 0
+    false_negative = 0
 
-  incorrect_ids = []
+    incorrect_ids = []
 
-  results.each do |row|
-    true_positive += 1 if row['applies_to_england_input'] == 'true' && row['applies_to_england_output'] == 'true'
-    true_negative += 1 if row['applies_to_england_input'] == 'false' && row['applies_to_england_output'] == 'false'
-    false_positive += 1 if row['applies_to_england_input'] == 'false' && row['applies_to_england_output'] == 'true'
-    false_negative += 1 if row['applies_to_england_input'] == 'true' && row['applies_to_england_output'] == 'false'
+    results.each do |row|
+      true_positive += 1 if row['applies_to_nation_input'] == 'true' && row['applies_to_nation_output'] == 'true'
+      true_negative += 1 if row['applies_to_nation_input'] == 'false' && row['applies_to_nation_output'] == 'false'
+      false_positive += 1 if row['applies_to_nation_input'] == 'false' && row['applies_to_nation_output'] == 'true'
+      false_negative += 1 if row['applies_to_nation_input'] == 'true' && row['applies_to_nation_output'] == 'false'
 
-    incorrect_ids << row['id'] if row['applies_to_england_input'] != row['applies_to_england_output']
-  end
+      incorrect_ids << row['id'] if row['applies_to_nation_input'] != row['applies_to_nation_output']
+    end
 
-  File.open(f.name, 'w') do |file|
-    file.puts "true_positive: #{true_positive}"
-    file.puts "true_negative: #{true_negative}"
-    file.puts "false_positive: #{false_positive}"
-    file.puts "false_negative: #{false_negative}"
-    file.puts "correct: #{true_positive + true_negative}"
-    file.puts "incorrect: #{false_positive + false_negative}"
+    File.open(f.name, 'w') do |file|
+      file.puts "true_positive: #{true_positive}"
+      file.puts "true_negative: #{true_negative}"
+      file.puts "false_positive: #{false_positive}"
+      file.puts "false_negative: #{false_negative}"
+      file.puts "correct: #{true_positive + true_negative}"
+      file.puts "incorrect: #{false_positive + false_negative}"
 
-    file.puts "Incorrect IDs:"
-    file.puts incorrect_ids.join("\n")
+      file.puts "Incorrect IDs:"
+      file.puts incorrect_ids.join("\n")
+    end
   end
 end
 
@@ -152,10 +166,11 @@ file 'data/national_applicability.csv' => 'data' do
 end
 
 task :setup => ['data/training_ids.txt']
+task :summaries => NATIONS.map { |nation| "output/#{nation}/summary.txt" }
 
 task :default do
   Rake::Task['setup'].invoke
-  exec('rake', 'results.csv')
+  exec('rake', 'summaries')
 end
 
-CLOBBER.include('output', 'input', 'data', 'results.csv')
+CLOBBER.include('output', 'input', 'data')
