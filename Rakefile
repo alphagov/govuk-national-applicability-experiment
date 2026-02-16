@@ -54,7 +54,8 @@ training_ids.each do |id|
 
     File.write(f.name, {
                  body: strip_tags(data['body']),
-                 applies_to_england: to_boolean(data['applies_to_england'])
+                 applies_to_england: to_boolean(data['applies_to_england']),
+                 applies_to_scotland: to_boolean(data['applies_to_scotland'])
                }.to_json)
   end
 end
