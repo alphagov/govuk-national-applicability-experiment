@@ -105,6 +105,38 @@ file 'results.csv' => training_ids.map { |id| "output/#{id}.json" } do |f|
   end
 end
 
+file 'summary.txt' => 'results.csv' do |f|
+  results = CSV.read('results.csv', headers: true)
+
+  true_positive = 0
+  true_negative = 0
+  false_positive = 0
+  false_negative = 0
+
+  incorrect_ids = []
+
+  results.each do |row|
+    true_positive += 1 if row['applies_to_england_input'] == 'true' && row['applies_to_england_output'] == 'true'
+    true_negative += 1 if row['applies_to_england_input'] == 'false' && row['applies_to_england_output'] == 'false'
+    false_positive += 1 if row['applies_to_england_input'] == 'false' && row['applies_to_england_output'] == 'true'
+    false_negative += 1 if row['applies_to_england_input'] == 'true' && row['applies_to_england_output'] == 'false'
+
+    incorrect_ids << row['id'] if row['applies_to_england_input'] != row['applies_to_england_output']
+  end
+
+  File.open(f.name, 'w') do |file|
+    file.puts "true_positive: #{true_positive}"
+    file.puts "true_negative: #{true_negative}"
+    file.puts "false_positive: #{false_positive}"
+    file.puts "false_negative: #{false_negative}"
+    file.puts "correct: #{true_positive + true_negative}"
+    file.puts "incorrect: #{false_positive + false_negative}"
+
+    file.puts "Incorrect IDs:"
+    file.puts incorrect_ids.join("\n")
+  end
+end
+
 desc 'Prepare input CSV file by querying content store database'
 file 'data/national_applicability.csv' => 'data' do
   query_file = File.join(File.dirname(__FILE__), 'query.sql')
