@@ -59,6 +59,9 @@ training_ids.each do |id|
   end
 end
 
+desc 'Regenerate all files in input/'
+task :inputs => training_ids.map { |id| "input/#{id}.json" }
+
 # Could have a loop over prompts, models etc here
 prompt = "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to England and give a short explanation (less than 100 words) for your decision."
 
