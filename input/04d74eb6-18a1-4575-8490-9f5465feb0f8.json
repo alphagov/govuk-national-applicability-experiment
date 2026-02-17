@@ -1,1 +1,6 @@
-{"title":"Glue trap licence application forms","body":"\"Use ‘A15 licence application form’ to apply for an individual glue trap licence.  Use ‘CL53 class licence: application to register’ to apply for a class licence.  Use ‘Report of action taken under A15 licence’ to report back to Natural England.  Use the ‘Glue trap reference form’ to provide a reference in support of a glue trap licence.  Read guidance on how to apply, how much it costs, and the conditions you must meet to hold a licence. \"","applies_to_england":true,"applies_to_scotland":false}
+{
+  "title": "Glue trap licence application forms",
+  "body": "\"Use ‘A15 licence application form’ to apply for an individual glue trap licence.  Use ‘CL53 class licence: application to register’ to apply for a class licence.  Use ‘Report of action taken under A15 licence’ to report back to Natural England.  Use the ‘Glue trap reference form’ to provide a reference in support of a glue trap licence.  Read guidance on how to apply, how much it costs, and the conditions you must meet to hold a licence. \"",
+  "applies_to_england": true,
+  "applies_to_scotland": false
+}

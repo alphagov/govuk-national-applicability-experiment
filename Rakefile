@@ -55,12 +55,12 @@ training_ids.each do |id|
     puts "Creating #{f.name}"
     data = raw_data.find {|r| r['id'] == id}
 
-    File.write(f.name, {
+    File.write(f.name, JSON.pretty_generate({
                  title: data['title'],
                  body: strip_tags(data['body']),
                  applies_to_england: to_boolean(data['applies_to_england']),
                  applies_to_scotland: to_boolean(data['applies_to_scotland'])
-               }.to_json)
+               }))
   end
 end
 
