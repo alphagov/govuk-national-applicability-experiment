@@ -23,3 +23,5 @@ llm keys set openrouter
 * Install the version of Python specified in `.python-version`, e.g. `mise install python` (with `idiomatic_version_file_enable_tools` enabled for Python).
 * Install `pipenv` by running `pip install --user pipenv`.
 * Install Python libraries by running `pipenv install`.
+* Install the OpenRouter plugin for `llm` by running `pipenv run llm install llm-openrouter`.
+* Set the OpenRouter API key by running `pipenv run llm keys set openrouter --value $OPEN_ROUTER_API_KEY`.
