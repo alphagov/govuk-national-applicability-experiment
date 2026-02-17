@@ -6,6 +6,7 @@ COPY (
       document_type,
       schema_name,
       first_published_at,
+      title,
       details->'body' as body,
       (details->'national_applicability'->'england'->>'applicable')::boolean as applies_to_england,
       (details->'national_applicability'->'northern_ireland'->>'applicable')::boolean as applies_to_northern_ireland,

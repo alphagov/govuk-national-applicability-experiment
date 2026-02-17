@@ -56,6 +56,7 @@ training_ids.each do |id|
     data = raw_data.find {|r| r['id'] == id}
 
     File.write(f.name, {
+                 title: data['title'],
                  body: strip_tags(data['body']),
                  applies_to_england: to_boolean(data['applies_to_england']),
                  applies_to_scotland: to_boolean(data['applies_to_scotland'])
@@ -71,7 +72,7 @@ NATIONS.each do |nation|
     desc "Prepare output file #{id}.json"
     file "output/#{nation}/#{id}.json" => ["output/#{nation}", "input/#{id}.json"] do |f|
       input = JSON.load_file("input/#{id}.json")
-      input_body = input['body']
+      input_text = [input['title'], input['body']].join("\n\n")
 
       prompt = "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to #{nation} and give a short explanation (less than 100 words) for your decision."
 
@@ -80,7 +81,7 @@ NATIONS.each do |nation|
       }
 
       Tempfile.create do |tempfile|
-        tempfile.puts(input_body)
+        tempfile.puts(input_text)
         tempfile.rewind
 
         stdout, stderr, status = Open3.capture3(
