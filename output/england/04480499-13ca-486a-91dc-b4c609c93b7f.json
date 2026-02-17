@@ -1,1 +1,5 @@
-{"prompt":"This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.","applies_to_nation":true,"reason":"The document pertains to the Impact Evaluation of the European Social Fund 2014-2020 programme, which is specifically focused on England. Given that it is published by the Department for Work and Pensions and relates directly to labour market support in England, it clearly applies to England."}
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The document pertains to the Impact Evaluation of the European Social Fund 2014-2020 programme, which is specifically focused on England. Given that it is published by the Department for Work and Pensions and relates directly to labour market support in England, it clearly applies to England."
+}

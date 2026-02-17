@@ -1,1 +1,5 @@
-{"prompt":"This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.","applies_to_nation":true,"reason":"This document specifically addresses funding for mainstream schools and local authorities in England, as indicated by references to the Department for Education and eligibility criteria for funding allocation within English education settings."}
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "This document specifically addresses funding for mainstream schools and local authorities in England, as indicated by references to the Department for Education and eligibility criteria for funding allocation within English education settings."
+}

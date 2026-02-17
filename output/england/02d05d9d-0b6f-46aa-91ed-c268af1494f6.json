@@ -1,1 +1,5 @@
-{"prompt":"This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.","applies_to_nation":true,"reason":"The document provides guidance on the incorporation of charity trustees under the Charities Act 2011, which is applicable in England. This legal framework governs how charities operate and is primarily relevant to English law."}
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The document provides guidance on the incorporation of charity trustees under the Charities Act 2011, which is applicable in England. This legal framework governs how charities operate and is primarily relevant to English law."
+}

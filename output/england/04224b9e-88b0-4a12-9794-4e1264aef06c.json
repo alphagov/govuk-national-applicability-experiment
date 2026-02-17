@@ -1,1 +1,5 @@
-{"prompt":"This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.","applies_to_nation":true,"reason":"This guidance relates to NHS continuing healthcare, which is applicable in England. It addresses the needs of individuals with learning disabilities and their carers, specifically within the context of England's healthcare system."}
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "This guidance relates to NHS continuing healthcare, which is applicable in England. It addresses the needs of individuals with learning disabilities and their carers, specifically within the context of England's healthcare system."
+}

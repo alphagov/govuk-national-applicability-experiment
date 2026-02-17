@@ -1,1 +1,5 @@
-{"prompt":"This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.","applies_to_nation":true,"reason":"The NHS Pension Scheme is a UK-wide programme, but the specific report refers to arrangements managed in England. Given that the NHS primarily operates under the Health and Care Act 2022 in England, the details are relevant to England in particular."}
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The NHS Pension Scheme is a UK-wide programme, but the specific report refers to arrangements managed in England. Given that the NHS primarily operates under the Health and Care Act 2022 in England, the details are relevant to England in particular."
+}

@@ -1,1 +1,5 @@
-{"prompt":"This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.","applies_to_nation":false,"reason":"The document pertains specifically to the Planning Inspectorate in England, which operates under the Department for Levelling Up, Housing and Communities (DLUHC). As such, it does not apply to Scotland, which has its own planning framework and governance structures."}
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The document pertains specifically to the Planning Inspectorate in England, which operates under the Department for Levelling Up, Housing and Communities (DLUHC). As such, it does not apply to Scotland, which has its own planning framework and governance structures."
+}

@@ -1,1 +1,5 @@
-{"prompt":"This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.","applies_to_nation":true,"reason":"The guide and tool discussed in the document are specifically designed for local authorities in England to assess homelessness risk, as indicated throughout the text referencing responsibilities and legislation under English law, particularly the Housing Act 1996."}
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The guide and tool discussed in the document are specifically designed for local authorities in England to assess homelessness risk, as indicated throughout the text referencing responsibilities and legislation under English law, particularly the Housing Act 1996."
+}

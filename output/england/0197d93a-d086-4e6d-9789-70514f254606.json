@@ -1,1 +1,5 @@
-{"prompt":"This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.","applies_to_nation":true,"reason":"This document applies to England as it details the introduction of a British Sign Language GCSE, which is being developed by the Department for Education specifically for English schools and students. It references legislation and data pertaining to educational needs and opportunities within the context of the English education system."}
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "This document applies to England as it details the introduction of a British Sign Language GCSE, which is being developed by the Department for Education specifically for English schools and students. It references legislation and data pertaining to educational needs and opportunities within the context of the English education system."
+}

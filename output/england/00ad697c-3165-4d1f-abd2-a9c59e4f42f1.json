@@ -1,1 +1,5 @@
-{"prompt":"This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.","applies_to_nation":true,"reason":"This document pertains to various roles and responsibilities within health governance in the UK, specifically relating to health agencies and departments that operate in England. As the UK Health Security Agency and the Department of Health and Social Care are key institutions in England's public health framework, this release is relevant to England."}
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "This document pertains to various roles and responsibilities within health governance in the UK, specifically relating to health agencies and departments that operate in England. As the UK Health Security Agency and the Department of Health and Social Care are key institutions in England's public health framework, this release is relevant to England."
+}

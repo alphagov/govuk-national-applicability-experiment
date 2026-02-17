@@ -1,1 +1,5 @@
-{"prompt":"This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.","applies_to_nation":false,"reason":"The document pertains primarily to the UK Government Legal Profession, which operates within the context of England and Wales. It does not specifically address or include provisions that apply to the legal framework in Scotland."}
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The document pertains primarily to the UK Government Legal Profession, which operates within the context of England and Wales. It does not specifically address or include provisions that apply to the legal framework in Scotland."
+}

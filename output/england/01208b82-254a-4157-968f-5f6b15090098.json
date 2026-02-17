@@ -1,1 +1,5 @@
-{"prompt":"This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.","applies_to_nation":true,"reason":"This document provides detailed statistics and analysis on safety in custody, specifically addressing issues such as deaths, self-harm, and assaults within the prison system in England and Wales. Therefore, it applies directly to England as it includes relevant data and insights for the English prison system."}
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "This document provides detailed statistics and analysis on safety in custody, specifically addressing issues such as deaths, self-harm, and assaults within the prison system in England and Wales. Therefore, it applies directly to England as it includes relevant data and insights for the English prison system."
+}

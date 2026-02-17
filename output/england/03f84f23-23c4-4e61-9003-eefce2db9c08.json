@@ -1,1 +1,5 @@
-{"prompt":"This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.","applies_to_nation":true,"reason":"This report specifically summarizes the surveillance of COVID-19 and influenza as it relates directly to England, detailing hospital admission rates, vaccination statistics, and other health metrics that are pertinent to public health monitoring within this nation."}
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "This report specifically summarizes the surveillance of COVID-19 and influenza as it relates directly to England, detailing hospital admission rates, vaccination statistics, and other health metrics that are pertinent to public health monitoring within this nation."
+}

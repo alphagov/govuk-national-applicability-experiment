@@ -1,1 +1,5 @@
-{"prompt":"This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.","applies_to_nation":false,"reason":"The document specifically addresses policies and funding related to adult social care in England. While similar frameworks may exist in Scotland, this particular publication and its contents are tailored for the English local authority system."}
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The document specifically addresses policies and funding related to adult social care in England. While similar frameworks may exist in Scotland, this particular publication and its contents are tailored for the English local authority system."
+}

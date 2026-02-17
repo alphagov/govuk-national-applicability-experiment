@@ -1,1 +1,5 @@
-{"prompt":"This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.","applies_to_nation":true,"reason":"The Index of Exempted Dogs operates under the Dangerous Dogs Act 1991 and related legislation that applies in Scotland, as Defra processes applications on behalf of the Scottish Government. This means the privacy notice is relevant to individuals and authorities in Scotland."}
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The Index of Exempted Dogs operates under the Dangerous Dogs Act 1991 and related legislation that applies in Scotland, as Defra processes applications on behalf of the Scottish Government. This means the privacy notice is relevant to individuals and authorities in Scotland."
+}

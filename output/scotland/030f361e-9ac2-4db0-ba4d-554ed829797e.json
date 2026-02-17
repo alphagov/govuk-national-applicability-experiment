@@ -1,1 +1,5 @@
-{"prompt":"This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.","applies_to_nation":true,"reason":"The report pertains to civil legal aid, which is a reserved matter in the UK, meaning it applies across England, Wales, Scotland, and Northern Ireland for understanding market dynamics and legal service provision."}
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The report pertains to civil legal aid, which is a reserved matter in the UK, meaning it applies across England, Wales, Scotland, and Northern Ireland for understanding market dynamics and legal service provision."
+}

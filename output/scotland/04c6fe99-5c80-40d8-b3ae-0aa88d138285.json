@@ -1,1 +1,5 @@
-{"prompt":"This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.","applies_to_nation":false,"reason":"The document pertains to the Pubs Code Adjudicator and the Freedom of Information Act 2000, which primarily applies to England and Wales. Specific matters regarding pubs in Scotland are governed by separate legislation and regulatory bodies."}
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The document pertains to the Pubs Code Adjudicator and the Freedom of Information Act 2000, which primarily applies to England and Wales. Specific matters regarding pubs in Scotland are governed by separate legislation and regulatory bodies."
+}

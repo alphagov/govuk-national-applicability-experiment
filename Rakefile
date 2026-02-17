@@ -97,7 +97,7 @@ NATIONS.each do |nation|
       end
 
       puts "Creating #{f.name}"
-      File.write(f.name, output.to_json)
+      File.write(f.name, JSON.pretty_generate(output))
     end
   end
 end

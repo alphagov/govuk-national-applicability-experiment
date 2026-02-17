@@ -1,1 +1,5 @@
-{"prompt":"This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.","applies_to_nation":true,"reason":"The JETS scheme was operational in Scotland from January 2021 to September 2022, which includes its evaluation period. The report discusses the impacts and costs of the scheme which applies to participants from all UK nations including Scotland."}
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The JETS scheme was operational in Scotland from January 2021 to September 2022, which includes its evaluation period. The report discusses the impacts and costs of the scheme which applies to participants from all UK nations including Scotland."
+}

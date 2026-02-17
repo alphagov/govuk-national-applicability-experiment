@@ -1,1 +1,5 @@
-{"prompt":"This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.","applies_to_nation":false,"reason":"This document specifically addresses housing affordability issues in England and Wales, and does not include information or statistics relevant to Scotland. Housing policies and data reporting may differ significantly between these nations."}
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "This document specifically addresses housing affordability issues in England and Wales, and does not include information or statistics relevant to Scotland. Housing policies and data reporting may differ significantly between these nations."
+}
