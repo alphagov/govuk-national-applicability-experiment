@@ -21,3 +21,5 @@ llm keys set openrouter
 * Install the version of Ruby specified in `.ruby-version`, e.g. `mise install ruby` (with `idiomatic_version_file_enable_tools` enabled for Ruby).
 * Install Ruby libraries by running `bundle install`.
 * Install the version of Python specified in `.python-version`, e.g. `mise install python` (with `idiomatic_version_file_enable_tools` enabled for Python).
+* Install `pipenv` by running `pip install --user pipenv`.
+* Install Python libraries by running `pipenv install`.
