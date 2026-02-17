@@ -85,7 +85,7 @@ NATIONS.each do |nation|
         tempfile.rewind
 
         stdout, stderr, status = Open3.capture3(
-          'llm',
+          'pipenv', 'run', 'llm',
           '-m', 'openrouter/openai/gpt-4o-mini',
           '--schema', 'applies_to_nation bool, reason',
           '--system', "'#{prompt}'",

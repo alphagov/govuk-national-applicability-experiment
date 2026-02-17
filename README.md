@@ -1,17 +1,13 @@
 # gds-national-applicability
-Feasibility of using machine classification to determine national applicability of GOV.UK content
 
+Feasibility of using machine classification to determine national applicability of GOV.UK content.
 
 ## Setup
 
-```
-mise install
-pip install llm
-llm install llm-openrouter
-```
-
-The add the OpenRouter API key (in our 1P vault)
-
-```
-llm keys set openrouter
-```
+* Install the version of Ruby specified in `.ruby-version`, e.g. `mise install ruby` (with `idiomatic_version_file_enable_tools` enabled for Ruby).
+* Install Ruby libraries by running `bundle install`.
+* Install the version of Python specified in `.python-version`, e.g. `mise install python` (with `idiomatic_version_file_enable_tools` enabled for Python).
+* Install `pipenv` by running `pip install --user pipenv`.
+* Install Python libraries by running `pipenv install`.
+* Install the OpenRouter plugin for `llm` by running `pipenv run llm install llm-openrouter`.
+* Set the OpenRouter API key by running `pipenv run llm keys set openrouter --value $OPEN_ROUTER_API_KEY`.
