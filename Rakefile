@@ -16,11 +16,10 @@ directory 'data'
 
 desc 'Randomly select 250 content ids to use as training data'
 file 'data/training_ids.txt' => ['data', 'data/national_applicability.csv'] do |f|
-  sample = raw_data.to_a[1..].sample(250, random: Random.new(SEED))
+  training_ids = raw_data['id'].sample(250, random: Random.new(SEED))
 
   File.open('data/training_ids.txt', 'w') do |file|
-    sample.each do |row|
-      id = row[0]
+    training_ids.each do |id|
       file.puts(id)
     end
   end
