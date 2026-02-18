@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document pertains to Integrated Urgent Care services, which are specific to the NHS system in England. Therefore, the statistics and data collection detailed apply specifically to England."
+  "reason": "The Integrated Urgent Care Aggregate Data Collection (IUC ADC) specifically relates to NHS services, which operate in England and are relevant to the healthcare system there."
 }

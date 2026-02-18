@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document discusses the state of cyber security in adult social care, which is a critical area governed by the Department of Health and Social Care that operates in England."
+  "reason": "The document is relevant to England as it involves the Department of Health and Social Care, which operates within the English jurisdiction, and focuses on adult social care in the context of cyber security."
 }

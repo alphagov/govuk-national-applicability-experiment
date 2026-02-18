@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document applies to England as the Community Accommodation Service Tier 3 (CAS3) is a program launched by HM Prison and Probation Service (HMPPS), which operates within the English legal and correctional system."
+  "reason": "The document details a service launched by HM Prison and Probation Service (HMPPS), which operates across England. Since HMPPS is a part of the criminal justice system in England, the evaluation of the Community Accommodation Service Tier 3 (CAS3) pertains specifically to England."
 }

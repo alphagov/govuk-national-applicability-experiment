@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document specifically addresses the statutory notification of causative agents of infectious diseases as mandated in England, and it does not extend to Scotland, which operates under a different public health system and regulations."
+  "reason": "This document specifically concerns laboratories in England and pertains to statutory notifications to the UK Health Security Agency, implying it does not apply to Scotland."
 }

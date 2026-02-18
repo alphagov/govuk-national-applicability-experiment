@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This commentary specifically pertains to non-domestic rating and property statistics for England and Wales. Scotland operates under a different rating system for non-domestic properties, governed by separate legislation and authorities."
+  "reason": "This commentary specifically addresses non-domestic ratings and property statistics for England and Wales only. There is no mention or application to Scotland, which has a separate system for non-domestic rates."
 }

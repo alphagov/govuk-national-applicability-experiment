@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document pertains specifically to England and Wales regulations, and therefore does not apply to Scotland."
+  "reason": "This document pertains specifically to an environmental permit application regulated under the Environmental Permitting (England and Wales) Regulations 2016, which does not apply to Scotland, as Scotland has its own separate legal framework for environmental regulation."
 }

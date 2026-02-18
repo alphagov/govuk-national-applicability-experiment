@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document relates specifically to rough sleeping data collected by the Ministry of Housing, Communities and Local Government, which is responsible for housing issues in England. Therefore, the findings and framework detailed are applicable to England."
+  "reason": "This document provides statistics and insights specific to rough sleeping in England, detailing data collected from local authorities across the country. The reference to the Ministry of Housing, Communities and Local Government (MHCLG) indicates the geographical application to England, while noting that rough sleeping is a separate issue in the devolved nations, which have their own systems and statistics."
 }

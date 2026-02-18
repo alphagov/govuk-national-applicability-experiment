@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This regulatory position statement (RPS 326) applies to England, as it is issued by the Environment Agency, which governs environmental regulation within England. The document outlines the requirements and conditions specific to operators with standard rules permits, impacting waste management practices in England."
+  "reason": "This document pertains to regulatory position statements issued by the Environment Agency, which operates in England. Therefore, it applies specifically to England."
 }

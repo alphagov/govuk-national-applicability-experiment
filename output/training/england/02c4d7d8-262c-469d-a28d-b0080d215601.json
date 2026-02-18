@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The Planning Act 2008 and the associated examination procedures for Nationally Significant Infrastructure Projects (NSIPs) are applicable in England. The guidance specifically outlines processes and regulations that apply to projects taking place within English jurisdiction."
+  "reason": "This guidance outlines the examination process for Nationally Significant Infrastructure Projects (NSIPs) under the Planning Act 2008, which is applicable in England only. The Planning Act is specific to England and addresses the procedures for obtaining development consent for infrastructure projects classified as nationally significant, thus making it relevant solely to England."
 }

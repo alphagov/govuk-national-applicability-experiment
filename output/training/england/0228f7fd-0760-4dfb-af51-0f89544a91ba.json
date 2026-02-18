@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document pertains specifically to England, as it references the Annual Fuel Poverty Statistics Report that exclusively provides insights and analyses of fuel poverty trends at various geographical levels within England. The methodologies discussed rely on data sources and statistical models that focus solely on English households."
+  "reason": "The document specifically addresses the methodology for fuel poverty statistics in England, referring to relevant datasets and terms applicable only within the context of the English housing and economic structure."
 }

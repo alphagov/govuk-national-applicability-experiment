@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The mention of the Regulator of Social Housing indicates that this document pertains to social housing regulation in England specifically, as the RSH operates under the jurisdiction of English housing law."
+  "reason": "The document pertains to regulatory judgements concerning housing, which falls under the jurisdiction of the Regulator of Social Housing in England."
 }

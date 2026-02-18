@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This privacy notice pertains to the Farming Recovery Fund, which is administered by the Rural Payments Agency (RPA) and involves personal data related to support for farmers in England, specifically in relation to weather-related events affecting agriculture."
+  "reason": "The Farming Recovery Fund privacy notice applies to England as it is administered by the Rural Payments Agency (RPA), which operates under the Department for Environment, Food & Rural Affairs (Defra) in England. While aspects may be relevant to other UK nations, the document specifically outlines processes and legal frameworks pertaining to England."
 }

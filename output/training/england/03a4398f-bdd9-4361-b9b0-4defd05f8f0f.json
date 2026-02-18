@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document applies to England as it discusses the civil justice system specifically related to county courts and judicial reviews processed in England and Wales. Key components such as county court civil cases, judicial reviews, and privacy injunctions are outlined in the context of the legal framework operating within England."
+  "reason": "The Civil Justice Statistics Quarterly pertains to civil and administrative justice in England and Wales, specifically covering county court civil cases, judicial reviews, and privacy injunction proceedings. Therefore, it applies to England."
 }

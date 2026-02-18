@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document pertains specifically to the regulatory framework of social housing in England and is governed by the Regulator of Social Housing, which does not extend its jurisdiction to Scotland."
+  "reason": "This document relates to the Regulator of Social Housing, which regulates social housing providers in England only. It does not apply to Scotland, as social housing regulation there is handled by the Scottish Housing Regulator."
 }

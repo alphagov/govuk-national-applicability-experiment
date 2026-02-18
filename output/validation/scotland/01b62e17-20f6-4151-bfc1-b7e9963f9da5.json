@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "The document pertains specifically to police powers and procedures in England and Wales, focusing on motoring offences and breath tests. It does not cover policing practices or laws relevant to Scotland."
+  "reason": "This document pertains only to police powers and procedures in England and Wales, specifically regarding motoring offences and breath tests. It does not include any references to police governance or statistics related to Scotland, which has a separate legal system and policing framework."
 }

@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "The Land Compensation Act 1973 primarily applies to England and Wales, and does not extend to Scotland, where different legislation governs land compensation."
+  "reason": "This document pertains to the Land Compensation Act 1973, which primarily applies to England and Wales. Scotland has its own separate legal framework for land compensation."
 }

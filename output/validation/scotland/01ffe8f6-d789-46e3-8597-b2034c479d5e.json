@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This regulatory judgement pertains specifically to Peabody Trust, which operates primarily in London and the South East of England. The governance and viability standards mentioned are specific to the regulatory framework in England and do not apply in Scotland."
+  "reason": "This regulatory judgement pertains specifically to Peabody Trust, which operates in England, primarily in London and the South East. The governance and viability standards described do not apply to social housing providers in Scotland, as the regulatory framework for housing associations is distinct in Scotland."
 }

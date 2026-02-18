@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "The document pertains to an environmental permit application by Wessex Water Services Limited and is relevant to England only, as it involves the Environment Agency. Scotland has its own regulatory body for environmental permits, which is separate from the Environment Agency."
+  "reason": "This document pertains specifically to the Environment Agency's activities in England related to environmental permit applications. Therefore, it does not apply to Scotland, as environmental regulation is managed by separate authorities there."
 }

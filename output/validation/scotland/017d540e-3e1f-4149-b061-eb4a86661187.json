@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
-  "applies_to_nation": false,
-  "reason": "The document pertains to convictions associated with the Post Office Horizon scandal, which primarily affects England and Wales. While it mentions Scottish convictions in passing, the legislative provisions, notifications, and management of quashed convictions detailed in the document are specific to cases under English law."
+  "applies_to_nation": true,
+  "reason": "The document relates to offences that include cases prosecuted in Scotland and mentions checks involving various records sources, which likely span across the UK, including Scotland."
 }

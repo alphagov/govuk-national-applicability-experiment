@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document states that the Employment Agency Standards Inspectorate (EAS) regulates private recruitment agencies in England, Scotland, and Wales, indicating its applicability to Scotland."
+  "reason": "The Employment Agency Standards Inspectorate (EAS) oversees private recruitment agencies and regulates their compliance with the laws applicable in England, Scotland, and Wales. Therefore, the document is relevant to Scotland."
 }

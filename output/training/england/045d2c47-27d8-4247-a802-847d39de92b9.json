@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document pertains to Civil Justice statistics, which are specifically related to court cases and the justice system in England and Wales, indicating its direct relevance to England."
+  "reason": "The Civil Justice statistics pertain to the justice systems in England and Wales, as specified in the document. The emphasis on civil courts, judicial reviews, and privacy injunctions suggests direct relevance to England's legal framework, justifying its application to England."
 }

@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
-  "applies_to_nation": true,
-  "reason": "The document applies to Scotland as the findings of maladministration by a housing association can have implications for rental standards and tenant rights across the UK, including Scotland. Furthermore, housing associations operate in various regions, necessitating awareness of service standards uniformly across the nations."
+  "applies_to_nation": false,
+  "reason": "This document pertains to housing associations regulated in England and the specific findings of the Housing Ombudsman, which does not apply to Scotland, where housing matters are overseen by different authorities."
 }

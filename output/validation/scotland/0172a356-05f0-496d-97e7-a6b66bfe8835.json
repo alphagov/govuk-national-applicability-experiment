@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "The guidance discusses statutory duties under the Housing and Regeneration Act 2008, which is specific to England and does not apply to Scotland, as housing regulation is a devolved matter in Scotland, governed by different legislation."
+  "reason": "This guidance pertains specifically to the Housing and Regeneration Act 2008, which primarily applies to England. Scotland has its own distinct housing legislation and regulatory framework, so this document does not directly apply to Scotland."
 }

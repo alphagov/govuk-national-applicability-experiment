@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The meeting involves government officials and local council leaders from England, discussing matters such as the 10 Year Health Plan for England and English Devolution, indicating its relevance specifically to England."
+  "reason": "This document discusses a meeting that involved government officials and local leaders in England, specifically addressing issues relating to local governance and health care in England, indicating its relevance to England."
 }

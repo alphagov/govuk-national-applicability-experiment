@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document specifically pertains to local authority budget estimates for England, and does not apply to Scotland, which has its own system of local governance and financial management."
+  "reason": "This document specifically concerns local authority budget data for England, and does not apply to Scotland or any other UK nations."
 }

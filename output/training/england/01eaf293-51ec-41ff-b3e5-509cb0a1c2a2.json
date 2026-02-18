@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The toolkit is focused on fire safety practices and resources applicable to Responsible Persons in England, as evidenced by references to specific councils, housing regulatory frameworks, and examples from various councils operating under English law."
+  "reason": "The toolkit is specifically designed for Responsible Persons (RPs) operating in residential settings in England, detailing fire safety measures and assessments tailored to meet the needs of vulnerable residents. It includes case studies and examples from various councils in England, demonstrating its applicability within the English legislative and operational framework for fire safety."
 }

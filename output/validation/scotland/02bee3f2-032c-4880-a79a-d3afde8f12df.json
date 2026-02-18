@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document provides guidance on transporting animals in Great Britain, which includes Scotland, as it addresses regulations applicable to all parts of Great Britain and specifies transport requirements for various animals, thus relevant to Scotland as well."
+  "reason": "The guidance on transporting animals in Great Britain applies to Scotland as it explicitly mentions that it is relevant for transporting animals in England, Scotland, and Wales. The requirements for transporter authorisations and animal welfare in transport regulations are applicable across all these nations."
 }

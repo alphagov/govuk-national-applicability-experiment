@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document pertains specifically to regulations concerning Northern Ireland and the Falsified Medicines Directive, which no longer applies there as of January 2025. The FMD regulations are distinct from those that apply in Scotland, which may have different legal frameworks and healthcare systems."
+  "reason": "This document specifically addresses regulations and requirements regarding the disapplication of the EU Falsified Medicines Directive in Northern Ireland and does not pertain to Scotland, which follows different regulations under the UK legal framework."
 }

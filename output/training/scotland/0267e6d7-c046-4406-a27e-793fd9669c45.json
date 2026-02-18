@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document pertains to the Safety of Women at Night Fund, which is a UK-wide initiative mainly evaluated for its impact across England and Wales. There is no indication or mention of relevance or application to Scotland within the content."
+  "reason": "The Safety of Women at Night Fund primarily targets areas within England and Wales, and does not extend to Scotland, where distinct legislative and policy frameworks govern issues surrounding violence against women and girl safety."
 }

@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The statement pertains to the production of official statistics, which is relevant to England as it encompasses the collection and distribution of data that informs government policies affecting coastal communities and built-up areas."
+  "reason": "This document discusses coastal communities and built-up areas, which are relevant to England as it has extensive coastlines and urban developments. The principles of impartial statistics apply across the UK, but specific communities mentioned pertain to England."
 }

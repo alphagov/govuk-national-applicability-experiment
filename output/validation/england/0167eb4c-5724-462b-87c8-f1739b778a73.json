@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document applies to England as it specifically refers to upper tier and unitary local authorities, which are governance structures unique to England."
+  "reason": "The document relates to public health grants for local authorities, which are applicable to England as they fall under the jurisdiction of the Department of Health and Social Care in England. It details funding specifically for upper tier and unitary local authorities in England for public health improvements."
 }

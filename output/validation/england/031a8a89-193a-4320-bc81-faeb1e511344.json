@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The Planning Inspectorate operates in England, and the Ministerial Measures regarding the Inspectorate's performance and statistics primarily apply to planning processes and decisions within England."
+  "reason": "The document pertains to planning and statistical measures relevant to England, which falls under the jurisdiction of the Planning Inspectorate. This agency is specifically responsible for planning-related matters in England."
 }

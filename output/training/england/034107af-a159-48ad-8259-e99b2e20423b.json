@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document discusses the NHS bowel cancer screening process, which is specifically applicable to England as the NHS operates primarily within the English healthcare system and the guidelines mentioned are relevant to screening practices in England."
+  "reason": "The document provides information regarding colorectal cancer screening and procedures within the NHS framework, which applies to England. This is evidenced by references to NHS services, contact information for NHS England, and procedures that are specific to the English healthcare system."
 }

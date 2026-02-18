@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document specifically focuses on phosphorus reduction initiatives within England and does not mention any corresponding provisions or adaptations for Scotland. In the UK, environmental regulations can differ by nation, and this plan is tailored to England's water industry management and investment cycles."
+  "reason": "The Wastewater Environment Act target delivery plan primarily addresses water policy and regulatory frameworks specific to England and does not extend to Scotland, which has its own environmental regulations and governance structures for water management."
 }

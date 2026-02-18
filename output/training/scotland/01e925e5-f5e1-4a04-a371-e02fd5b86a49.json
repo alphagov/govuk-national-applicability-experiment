@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document specifically outlines the Sustainable Farming Incentive actions under the Countryside Stewardship Higher Tier, which is a scheme applicable in England. The regulations and schemes related to agriculture and environmental management can differ significantly across the UK's four nations, making this document inapplicable to Scotland."
+  "reason": "This document specifically outlines actions related to the Countryside Stewardship Higher Tier and Sustainable Farming Incentive, which are not applicable to Scotland as agricultural funding frameworks and schemes in Scotland are administered separately by the Scottish Government."
 }

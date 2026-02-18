@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document is relevant to England as it discusses the recruitment of governors and academy trustees specific to schools and academy trusts operating within England's educational framework, including references to initiatives and services that are UK-specific and directed towards English educational institutions."
+  "reason": "This document is related to the recruitment of school governors and academy trustees, which is relevant to schools and educational governance in England."
 }

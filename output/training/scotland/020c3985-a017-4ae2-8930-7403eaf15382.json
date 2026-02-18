@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document relates to veterinary medicinal product authorisations and fees which are regulated across the UK including Scotland. The regulation of veterinary medicines falls under UK law, and relevant fees apply uniformly to all nations within the UK."
+  "reason": "This document applies to Scotland as it outlines fees and authorisations related to veterinary products and their regulation, which falls under the Animal Health and Veterinary Medicines framework applicable across the UK, including Scotland."
 }

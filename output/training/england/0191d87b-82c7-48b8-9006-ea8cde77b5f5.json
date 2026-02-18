@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document details departmental spending, which is a matter of public interest in England, as it concerns government transparency and accountability. Such financial disclosures are typically relevant to all aspects of government operations in England."
+  "reason": "This document relates to governmental financial transparency and accountability, which typically encompasses the activities of UK government departments that operate in England. It includes data relevant for public scrutiny and is therefore applicable to England."
 }

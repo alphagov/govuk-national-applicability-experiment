@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document specifically addresses domestic abuse in England and Wales, indicating that it is relevant to both nations. The mention of 'Wales' confirms that it applies to England as well, as the overview provides a perspective on the issue within these jurisdictions."
+  "reason": "The document specifically references England and Wales, indicating that it pertains to both nations. Therefore, it applies to England."
 }

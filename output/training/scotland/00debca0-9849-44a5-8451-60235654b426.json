@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document specifically addresses NHS wheelchair services in England, indicating it is not applicable to Scotland where different healthcare systems and policies are in place."
+  "reason": "The document specifically mentions NHS wheelchair services in England, indicating that it does not apply to Scotland as healthcare is devolved and managed separately."
 }

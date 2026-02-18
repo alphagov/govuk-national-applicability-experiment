@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document primarily addresses regulations and standards applicable to social housing landlords in England, as it references the Social Housing (Regulation) Act 2023 and specific conditions regarding local authorities and registered providers that are not applicable in Scotland, where housing regulation operates under different legislative frameworks."
+  "reason": "This document concerns consumer regulation of social landlords in the UK, primarily focusing on England. It does not address specific regulations or standards applicable to Scotland, as housing regulation falls under devolved powers in Scotland, subject to its own legislative framework. Thus, the content is not applicable to Scotland."
 }

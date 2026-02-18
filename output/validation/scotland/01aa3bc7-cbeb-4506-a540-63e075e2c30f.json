@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document pertains specifically to the Environmental Permitting (England and Wales) Regulations 2016, which do not apply to Scotland. Scotland has its own environmental regulatory framework and separate permitting processes governed by the Scottish Environment Protection Agency (SEPA)."
+  "reason": "This document pertains to environmental permit applications regulated by the Environment Agency, which applies specifically to England and Wales. Scotland has its own regulatory framework for environmental permitting, overseen by the Scottish Environment Protection Agency (SEPA). Therefore, this document does not apply to Scotland."
 }

@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document pertains to updates from the Department for Education (DfE) which operates in England, specifically addressing local authorities and schools regarding educational funding, reporting requirements, and teaching frameworks."
+  "reason": "This document pertains to education policies and initiatives implemented by the Department for Education (DfE), which governs schools, including maintained schools, in England. The referenced actions and requirements specifically apply to English schools and are relevant to the educational framework in England."
 }

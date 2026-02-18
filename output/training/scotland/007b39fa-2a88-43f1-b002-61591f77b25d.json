@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document specifically outlines definitions related to student loans and higher education funding that are relevant to England. It focuses on terms and regulations that apply specifically to the English educational system and financial administrative framework, which do not extend to Scotland as education in Scotland operates under a different system and regulations."
+  "reason": "The document specifically defines terms related to loan schemes and regulations that apply solely within the context of England, including references to English educational systems and regulations. Scotland has its own separate education and student loan frameworks."
 }

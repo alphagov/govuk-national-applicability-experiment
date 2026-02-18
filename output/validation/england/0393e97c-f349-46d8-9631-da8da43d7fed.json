@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document applies to England as it involves the regulatory framework established by the Regulator of Social Housing, which oversees private registered providers in England."
+  "reason": "This document relates to the Fire Safety Remediation Survey (FRS) specific to private registered providers in the housing sector, which applies to England as it is regulated by the Regulator of Social Housing."
 }

@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document pertains to tenant satisfaction measures and housing regulations which are relevant to England, as these measures are specifically mandated for registered landlords operating within this jurisdiction."
+  "reason": "This report pertains to Tenant Satisfaction Measures (TSM) used specifically by registered landlords in England, outlining the performance metrics and satisfaction levels of tenants in low-cost rental and home ownership accommodation, which directly applies to England's housing and regulatory framework."
 }

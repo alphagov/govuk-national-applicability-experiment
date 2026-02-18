@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document applies to England as it outlines data exchange procedures specifically for GCSE and Project qualifications, which are regulated by Ofqual, the exams regulator for England. These qualifications are primarily relevant to educational settings and qualifications systems in England."
+  "reason": "This document applies to England as it specifically relates to GCSE and Project qualifications, which are regulated by Ofqual, the qualifications regulator for England. It includes procedures and reporting requirements that are pertinent to assessments conducted in England."
 }

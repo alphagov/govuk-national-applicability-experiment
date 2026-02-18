@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document discusses statistics and methodologies related to children with incarcerated parents based on data from His Majesty's Prisons and Probation Service (HMPPS), primarily applicable to England's criminal justice system."
+  "reason": "This document applies to England as it discusses data and statistics derived from the Ministry of Justice and various administrative databases that operate under English law, specifically focusing on prisoners and their dependents within the context of the English criminal justice system."
 }

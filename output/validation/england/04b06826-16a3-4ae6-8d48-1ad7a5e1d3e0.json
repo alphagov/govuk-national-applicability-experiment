@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The Heat-Health Alerting system specifically issues alerts for hot weather that could impact health within the population of England, indicating that it is tailored to the needs and conditions of England."
+  "reason": "The Heat-Health Alerting system specifically mentions its issuance for heat-related health impacts forecasted within the population of England, indicating its applicability to England."
 }

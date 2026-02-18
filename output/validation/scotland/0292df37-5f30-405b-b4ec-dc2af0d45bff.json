@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "The document focuses on healthcare statistics specifically for England and does not pertain to Scotland or other UK nations."
+  "reason": "The document specifically focuses on health statistics and analysis pertaining to England, and does not mention or include data relevant to Scotland, Wales, or Northern Ireland."
 }

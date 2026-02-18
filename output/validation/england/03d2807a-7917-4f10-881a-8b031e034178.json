@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The report uses data from public opinion polling conducted across Great Britain, which includes England. Since it encompasses a range of findings relevant to the awareness and experiences of the public in England regarding cyber crime and fraud, it is applicable to England."
+  "reason": "This report is based on polling data from a survey conducted across Great Britain, which includes England. The findings and implications regarding public attitudes towards cyber crime and fraud are relevant to England's population and law enforcement context."
 }

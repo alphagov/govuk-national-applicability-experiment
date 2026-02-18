@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The Environment Agency operates across England and is responsible for environmental protection, flood risk management, and water quality, among other aspects relevant to England's governance and public services."
+  "reason": "The Environment Agency operates in England, specifically addressing environmental management, pollution control, and flood risk management within its jurisdiction, thus the corporate scorecard is applicable to England."
 }

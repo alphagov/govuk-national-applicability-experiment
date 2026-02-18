@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document specifically addresses childcare settings and regulations under the Early Years Foundation Stage (EYFS) framework, which applies only to England. Scotland has its own separate regulations and frameworks governing early years childcare."
+  "reason": "This document specifically addresses childcare settings and regulations in England, particularly relating to the Early Years Foundation Stage (EYFS), which does not apply to Scotland."
 }

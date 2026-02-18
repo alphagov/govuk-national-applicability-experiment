@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
-  "applies_to_nation": true,
-  "reason": "This guidance pertains to vaccination eligibility in the UK, including Scotland, as health policies often align across the nations within the NHS framework."
+  "applies_to_nation": false,
+  "reason": "This document specifically addresses guidelines for the RSV vaccine eligibility and administration starting in England from September 2024. Scotland has its own health services and vaccination policies, which may differ from those in England."
 }

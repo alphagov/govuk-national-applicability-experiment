@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document applies to England as it references Defra guidelines, which are specific to England's governmental framework related to the export of captive birds and microchip requirements."
+  "reason": "This document applies to England as it mentions procedures and requirements set forth by Defra (Department for Environment, Food & Rural Affairs), which is a UK government department responsible for environmental protection, food production and standards, agriculture, fisheries, and rural communities in England."
 }

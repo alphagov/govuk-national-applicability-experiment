@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document pertains to NHS pay awards, which are applicable in England as the NHS operates under separate systems in other UK nations."
+  "reason": "The announcement regarding NHS pay awards directly relates to the funding and management of the National Health Service, which is applicable in England."
 }

@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document pertains specifically to building safety remediation programs and funding mechanisms that are governed by policies applicable in England, and does not address regulations or initiatives specifically tailored for Scotland."
+  "reason": "This document pertains to building safety measures and data specifically relevant to England, as it includes references to the ACM programme and various funds that are specific to England's building safety regulations and enforcement actions."
 }

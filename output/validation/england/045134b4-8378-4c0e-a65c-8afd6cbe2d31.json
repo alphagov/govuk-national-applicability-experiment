@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document discusses drought prospects and water resource management specifically in the context of England, referencing the Environment Agency's drought stages and geographic areas within England. Therefore, it applies to England."
+  "reason": "This document discusses drought management and water resource situations specifically within Environment Agency geographic areas, which are all located in England. Therefore, it pertains directly to England."
 }

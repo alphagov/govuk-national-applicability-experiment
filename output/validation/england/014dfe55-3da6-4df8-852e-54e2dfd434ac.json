@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The HM Courts & Tribunals Service operates within England and its processes and funding details pertain specifically to the English legal system."
+  "reason": "This document pertains to the HM Courts & Tribunals Service, which operates across England and Wales, making it applicable to England."
 }

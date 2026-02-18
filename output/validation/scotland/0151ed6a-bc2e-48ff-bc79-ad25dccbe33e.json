@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document pertains specifically to England as it references licensing through Natural England and geographical areas within England. It does not apply to Scotland, which has separate wildlife legislation and licensing frameworks."
+  "reason": "This document specifically references licensing and regulations managed by Natural England, which is an agency for England only, and does not apply to Scotland."
 }

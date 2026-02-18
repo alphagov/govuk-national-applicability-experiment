@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This guidance on managing conflicts of interest is applicable to charities operating in Scotland, as the regulation of charities and trustees is governed by the Scottish Charity Regulator and is relevant to the legal framework under Scottish law."
+  "reason": "This document applies to Scotland as it addresses guidelines concerning trustees and conflicts of interest, which are relevant under Scottish charity law. The principles outlined in the document are applicable to charitable organizations operating in Scotland, including the requirements for acknowledging and managing conflicts of interest as per the Charity and Trustee Investment (Scotland) Act 2005."
 }

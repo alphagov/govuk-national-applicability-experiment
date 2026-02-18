@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This release discusses the Energy Company Obligation (ECO) and the Green Deal schemes, which are applicable in England. Additionally, it mentions energy efficiency measures that are enforced by UK government policies relevant to England."
+  "reason": "The Energy Company Obligation (ECO) scheme and Green Deal are specific to England and impact energy efficiency measures within the region."
 }

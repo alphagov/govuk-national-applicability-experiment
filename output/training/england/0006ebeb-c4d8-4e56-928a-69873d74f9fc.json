@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This report specifically addresses trends and data related to Hepatitis B infections in the South West of England, and it is produced by the UK Health Security Agency (UKHSA), which is responsible for public health in England. Consequently, it directly applies to England."
+  "reason": "This report focuses on data and trends specific to hepatitis B in the South West region of England, including laboratory reports, testing, and vaccination coverage, making it applicable to England."
 }

@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document applies to England as it relates to Ofsted's inspections and outcomes for further education and skills providers, which is an English regulatory body overseeing education standards in England."
+  "reason": "The document pertains to Ofsted inspections and outcomes for further education and skills across England, which falls under the jurisdiction of the English education system. Therefore, it applies to England."
 }
