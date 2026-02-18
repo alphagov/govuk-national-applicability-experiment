@@ -25,6 +25,17 @@ file 'data/training_ids.txt' => ['data', 'data/national_applicability.csv'] do |
   end
 end
 
+desc 'Randomly select 250 content ids to use as validation data'
+file 'data/validation_ids.txt' => ['data', 'data/national_applicability.csv', 'data/training_ids.txt'] do |f|
+  validation_ids = raw_data['id'] - training_ids
+
+  File.open('data/validation_ids.txt', 'w') do |file|
+    validation_ids.each do |id|
+      file.puts(id)
+    end
+  end
+end
+
 def training_ids
   if File.exist?('data/training_ids.txt')
     File.readlines('data/training_ids.txt', chomp: true)
@@ -160,7 +171,7 @@ file 'data/national_applicability.csv' => 'data' do
   sh "govuk-docker down content-store-lite"
 end
 
-task :setup => ['data/training_ids.txt']
+task :setup => ['data/training_ids.txt', 'data/validation_ids.txt']
 task :summaries => NATIONS.map { |nation| "output/#{nation}/summary.txt" }
 
 task :default do
