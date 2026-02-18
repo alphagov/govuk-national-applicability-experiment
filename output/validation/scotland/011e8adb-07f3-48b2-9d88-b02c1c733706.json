@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The document specifically mentions the Animal Movement Licensing System managed by the RPA, which operates under UK-wide regulations but does not explicitly state applicability to Scotland, nor does it reference any specific Scottish regulations or considerations. Accessibility statements typically pertain to the organization or territory in which the service operates, and this one does not indicate a direct application to Scotland."
+}

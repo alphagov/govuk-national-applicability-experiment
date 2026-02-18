@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "This document applies to England and Wales only, as it specifically states that statistics regarding Individual Voluntary Arrangements (IVAs) do not include data from Scotland, where a different system (Protected Trust Deeds) is in place, administered by a different body (Accountant in Bankruptcy)."
+}

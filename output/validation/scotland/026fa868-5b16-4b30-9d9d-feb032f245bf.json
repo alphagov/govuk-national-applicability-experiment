@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The statistics presented are specific to Great Britain, which typically includes England, Wales, and Scotland; however, specific regulations and speed limit compliance can vary distinctly in Scotland. Therefore, the applicability of these statistics to Scotland requires caution, and they should not be viewed as fully representative or applicable to Scotland's legal framework or driving conditions."
+}

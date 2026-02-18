@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "This document primarily addresses drought management and rainfall scenarios specific to the Environment Agency areas in England, and does not provide information relevant to Scotland's water management or drought conditions."
+}

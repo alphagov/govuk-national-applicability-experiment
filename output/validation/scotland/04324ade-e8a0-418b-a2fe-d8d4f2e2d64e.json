@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "This report focuses on the experiences of social housing residents in England and is specifically linked to policies and frameworks established by the Ministry for Housing, Communities and Local Government, which operates within the jurisdiction of England only. It does not address social housing practices or policies related to Scotland."
+}

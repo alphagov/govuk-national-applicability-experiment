@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The document focuses on coastal communities and built-up areas in the UK without specific reference to any policies or statistics relevant to Scotland. It addresses general information that applies across the UK, but does not highlight any Scotland-specific context or policies."
+}

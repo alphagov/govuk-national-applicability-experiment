@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The report focuses on an outbreak of Clostridioides difficile ribotype 955 primarily in England, with specific mentions of cases and healthcare settings related to English NHS trusts. While it references Wales and mentions a lack of cases in Northern Ireland and Scotland since 2012, it does not provide direct relevance or implications for Scotland's healthcare system."
+}
