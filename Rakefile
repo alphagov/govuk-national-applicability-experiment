@@ -84,7 +84,7 @@ NATIONS.each do |nation|
         'pipenv', 'run', 'llm',
         '-m', 'openrouter/openai/gpt-4o-mini',
         '--schema', 'applies_to_nation bool, reason',
-        '--system', "'#{prompt}'",
+        '--system', prompt,
         stdin_data: input_text
       )
 
