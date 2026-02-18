@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "This document pertains to Derbyshire County Council, which is located in England. It specifically addresses local government services within the English context, particularly in relation to special educational needs and disabilities as assessed by Ofsted and the Care Quality Commission."
+}

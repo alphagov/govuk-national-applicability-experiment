@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The Animal Movement Licensing System 2 (AMLS2) is a UK government service operated by the RPA, which applies to England and potentially other parts of the UK, as it is a government initiative relevant to animal licensing, a matter under public sector authority."
+}

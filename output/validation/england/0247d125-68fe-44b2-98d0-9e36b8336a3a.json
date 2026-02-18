@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The document outlines changes to the NHS bowel cancer screening programme standards, which exclusively pertains to England, as this programme is administered by the NHS England and national public health frameworks."
+}

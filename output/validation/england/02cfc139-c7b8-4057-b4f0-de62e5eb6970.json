@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "This document relates to Pension Credit applications and awards, which are applicable in England as well as throughout Great Britain. The context provided about policy changes specifically mentions England and Wales, indicating its relevance to these regions."
+}

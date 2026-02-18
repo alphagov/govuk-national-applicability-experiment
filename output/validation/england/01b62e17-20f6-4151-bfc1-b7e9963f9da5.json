@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The document provides statistics and information related to police powers and procedures specifically for motoring offences and breath tests in England and Wales. Since it encompasses data from all territorial police forces in England, it is applicable to England."
+}

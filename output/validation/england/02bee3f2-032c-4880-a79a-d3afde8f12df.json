@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The document discusses regulations specifically related to the transport of animals in England, particularly in relation to the outbreak of avian influenza and the required permits and authorizations for animal transport, thus it applies directly to England."
+}
