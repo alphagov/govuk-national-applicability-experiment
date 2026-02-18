@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The document pertains to the Social Housing Decarbonisation Fund Wave 2.2, which is a UK government initiative, specifically organized by the Department for Energy Security and Net Zero (DESNZ), indicating its applicability to England."
+}

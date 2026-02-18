@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "This report discusses the regulatory framework and initiatives surrounding building safety in England, specifically mentioning the Building Safety Act 2022 and the role of the Building Safety Regulator, which are relevant only to England."
+}

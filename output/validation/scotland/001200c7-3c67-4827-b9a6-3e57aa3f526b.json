@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The flu vaccination programme and guidelines provided are applicable across the UK, including Scotland, as they involve coordinated public health strategies aimed at reducing morbidity and mortality from influenza during the winter months. While specific implementation may be tailored by the Scottish government, the general eligibility and vaccination recommendations align with national health priorities."
+}

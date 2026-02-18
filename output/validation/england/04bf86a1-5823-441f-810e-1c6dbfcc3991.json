@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "This document pertains to the reconstitution of an Internal Drainage Board, which is a local authority in England responsible for managing water levels and drainage. The involvement of the Environment Agency and references to the Department for Environment, Food and Rural Affairs indicate that it applies specifically to England."
+}

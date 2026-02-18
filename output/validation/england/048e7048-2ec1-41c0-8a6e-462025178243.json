@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The document pertains to a Section 37 consent under the Electricity Act 1989, which applies to the installation of overhead lines in England and Wales, indicating its relevance to England."
+}

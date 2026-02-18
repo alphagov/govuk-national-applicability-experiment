@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "This document pertains to the hospital and community health sector in England, specifically outlining estimates on earnings, costs, and pay data relevant to the NHS workforce under the Agenda for Change framework. Therefore, it applies exclusively to England."
+}
