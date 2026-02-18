@@ -80,21 +80,16 @@ NATIONS.each do |nation|
         prompt:,
       }
 
-      Tempfile.create do |tempfile|
-        tempfile.puts(input_text)
-        tempfile.rewind
+      stdout, stderr, status = Open3.capture3(
+        'pipenv', 'run', 'llm',
+        '-m', 'openrouter/openai/gpt-4o-mini',
+        '--schema', 'applies_to_nation bool, reason',
+        '--system', "'#{prompt}'",
+        stdin_data: input_text
+      )
 
-        stdout, stderr, status = Open3.capture3(
-          'pipenv', 'run', 'llm',
-          '-m', 'openrouter/openai/gpt-4o-mini',
-          '--schema', 'applies_to_nation bool, reason',
-          '--system', "'#{prompt}'",
-          stdin_data: tempfile.read
-        )
-
-        output_json = JSON.parse(stdout)
-        output.merge!(output_json)
-      end
+      output_json = JSON.parse(stdout)
+      output.merge!(output_json)
 
       puts "Creating #{f.name}"
       File.write(f.name, JSON.pretty_generate(output))
