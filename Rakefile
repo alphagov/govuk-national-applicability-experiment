@@ -156,9 +156,9 @@ file 'data/national_applicability.csv' => 'data' do
   query_file = File.join(File.dirname(__FILE__), 'query.sql')
   output = File.join(File.dirname(__FILE__), 'data', 'national_applicability.csv')
 
-  system("govuk-docker up -d content-store-lite")
-  system("docker exec -i govuk-docker-content-store-lite-1 rails db < #{query_file} > #{output}")
-  system("govuk-docker down content-store-lite")
+  sh "govuk-docker up -d content-store-lite"
+  sh "docker exec -i govuk-docker-content-store-lite-1 rails db < #{query_file} > #{output}"
+  sh "govuk-docker down content-store-lite"
 end
 
 task :setup => ['data/training_ids.txt']
