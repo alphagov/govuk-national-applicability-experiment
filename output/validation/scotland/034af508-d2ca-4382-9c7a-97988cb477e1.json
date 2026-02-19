@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "This document pertains specifically to tax relief for Research and Development in the UK and is primarily designed under UK taxation law, which does not apply to the unique tax system in Scotland. Scotland has its own tax policies, and businesses in Scotland must refer to relevant legislation and guidance provided by the Scottish Government."
+}

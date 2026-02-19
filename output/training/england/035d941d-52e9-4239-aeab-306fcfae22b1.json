@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "This document pertains to the classification of economic statistics, which falls under the responsibilities of the Office for National Statistics (ONS) based in England. As ONS is responsible for collecting and publishing national data that impacts England directly, the content is applicable to England."
+}

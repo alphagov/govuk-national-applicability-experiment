@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document pertains to a primary school in Birmingham, England, and is specifically related to admission arrangements under the jurisdiction of the English education system, which does not apply to Scotland."
+  "reason": "The document pertains specifically to St Edward's Catholic Primary School in Birmingham, which is located in England. It does not apply to Scotland as it relates to English education laws and local authority regulations."
 }

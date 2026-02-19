@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "This document pertains to UK maritime regulations and specifically addresses notices and compliance for operators and shipowners in England, Wales, and Northern Ireland. It does not specifically mention or provide guidance relevant to Scotland, which has separate maritime regulatory frameworks."
+}

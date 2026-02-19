@@ -1,5 +1,0 @@
-{
-  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
-  "applies_to_nation": false,
-  "reason": "This document specifically discusses energy use on farms in England and relates to the Farm Business Survey, which is focused only on English farm businesses. It does not include or apply to Scotland, Wales, or Northern Ireland."
-}

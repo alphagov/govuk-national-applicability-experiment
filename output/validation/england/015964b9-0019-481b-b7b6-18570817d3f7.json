@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document pertains to the operations of HMCTS (Her Majesty's Courts and Tribunals Service), which operates within the legal framework of England and Wales. Therefore, it applies to England."
+  "reason": "The document pertains to meetings involving HMCTS (Her Majesty's Courts and Tribunals Service), which operates within the judiciary in England. Therefore, it applies to England."
 }

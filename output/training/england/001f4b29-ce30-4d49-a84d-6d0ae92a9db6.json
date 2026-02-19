@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "The document specifically presents data related to the prison population of Northern Ireland, which does not apply to England."
+  "reason": "This document specifically pertains to Northern Ireland's prison population, and therefore does not apply to England."
 }

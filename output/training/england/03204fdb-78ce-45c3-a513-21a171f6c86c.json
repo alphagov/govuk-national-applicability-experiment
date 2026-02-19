@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The article discusses the diversity of natural gas supply in Europe, which impacts energy policy and supply chain decisions in England. Given that energy markets are interconnected across Europe, developments detailed in the article are relevant for stakeholders in England."
+}

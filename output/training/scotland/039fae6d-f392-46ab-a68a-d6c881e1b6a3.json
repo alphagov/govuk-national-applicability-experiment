@@ -1,5 +1,0 @@
-{
-  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
-  "applies_to_nation": true,
-  "reason": "The Integrated Urgent Care Aggregate Data Collection (IUC ADC) applies to Scotland as it is part of the integrated health services framework utilized across the UK. Although health services are devolved, the data collection pertains to the overall NHS services, which include those in Scotland."
-}

@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "This document specifically pertains to HMRC and the Government Major Projects Portfolio, which operates under UK government policies and does not have separate applicability for Scotland, as it is a reserved matter."
+}

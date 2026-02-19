@@ -1,5 +1,0 @@
-{
-  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
-  "applies_to_nation": false,
-  "reason": "The document pertains specifically to the Planning Inspectorate, which operates across England and is under the remit of the Department for Levelling Up, Housing and Communities (DLUHC). Therefore, it does not apply to Scotland."
-}

@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "This document specifically discusses profitability statistics for UK companies, which typically applies to England, Wales, and Northern Ireland. However, Scotland has separate financial reporting standards and may have distinct economic conditions that affect company profitability, thus it is not uniformly applicable to Scotland."
+}

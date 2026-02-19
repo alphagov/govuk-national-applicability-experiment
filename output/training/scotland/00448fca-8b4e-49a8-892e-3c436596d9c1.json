@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "This document is relevant to England only, as it specifically mentions the North East Derbyshire District Council and the Regulator of Social Housing, which operate within the English housing sector. Scotland has its own housing regulations and governing bodies."
+}

@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document applies to England as it pertains to information published by the Department for Work and Pensions (DWP), which is a UK government department primarily operating in England and responsible for social welfare and employment services across the UK."
+  "reason": "This document applies to England as the Department for Work and Pensions (DWP) is a UK government department responsible for welfare and pension policy specifically in England, and it provides information relevant to its operations within the country."
 }

@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The document specifically discusses the Conflict, Stability and Security Fund (CSSF) and its activities related to the Overseas Territories, which are separate governance regions and may not directly pertain to England or any specific UK nation."
+}

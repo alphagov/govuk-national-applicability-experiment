@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The legislation referenced, the Local Government Finance Act 1992, applies to England and Wales. However, the principles outlined in it may influence similar legislation and council tax policies in Scotland, impacting how local government finance operates across the UK."
+}

@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The Automated Vehicles Act Implementation Programme is applicable to England as it is launched by the Department for Transport (DfT) and focuses on legislative frameworks and regulations that primarily involve the road systems within England. Moreover, references to the Law Commission of England and Wales further indicate its applicability to this nation."
+}

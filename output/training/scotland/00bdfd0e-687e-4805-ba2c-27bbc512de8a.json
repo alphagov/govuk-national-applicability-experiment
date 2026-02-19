@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "The document pertains to an offshore wind farm project under the Planning Act 2008, which is applicable to England only and does not apply to Scotland."
+  "reason": "The application pertains to the Planning Act 2008, which applies specifically to England. The decision regarding the Dogger Bank Teesside A / Sofia Offshore Wind Farm does not affect Scotland, as Scotland has its own planning system and regulatory framework for offshore wind projects."
 }

@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This guidance specifically refers to the Planning and Compulsory Purchase Act 2004 and related regulations, which govern the planning system in England. Thus, it applies to England."
+  "reason": "This guidance is specific to the local plan-making process under the Planning and Compulsory Purchase Act 2004, which applies in England. It discusses procedures and regulations relevant to local planning authorities in England, including site identification for local development plans."
 }

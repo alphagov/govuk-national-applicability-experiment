@@ -1,5 +1,0 @@
-{
-  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
-  "applies_to_nation": false,
-  "reason": "The document specifically addresses the EU Regulation on General Product Safety (2023/988) as it pertains to Northern Ireland and does not include provisions that apply to England or the other UK nations. Therefore, it does not apply to England."
-}

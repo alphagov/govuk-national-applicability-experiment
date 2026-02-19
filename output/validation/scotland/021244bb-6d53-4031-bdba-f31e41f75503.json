@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The document pertains specifically to the SLC (Student Loans Company) and its supplier spending, which is a matter relevant primarily to England and the broader UK budgetary process. It does not address specific policies or regulations that would apply distinctly to Scotland."
+}

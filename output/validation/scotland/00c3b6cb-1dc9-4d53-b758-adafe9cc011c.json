@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "This document primarily pertains to data and statistics released by the Ministry of Justice, which operates in England and Wales. Scotland has its own distinct criminal justice system and statistical reporting institutions."
+}

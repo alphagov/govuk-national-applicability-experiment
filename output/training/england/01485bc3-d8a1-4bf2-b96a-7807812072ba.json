@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The Product Regulation and Metrology Bill pertains to UK product safety and regulation, which applies to England as part of the UK framework. It outlines provisions relevant to the marketing and use of products, impacting economic activities governed by English law."
+}

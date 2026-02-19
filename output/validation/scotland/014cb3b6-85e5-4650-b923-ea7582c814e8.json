@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The document pertains to MOD expenditure within the UK but does not specifically include data or policies applicable to Scotland, as it focuses on regional statistics and does not explicitly reference any region's specific framework or impact."
+}

@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The guidance on Extended Producer Responsibility (EPR) and the associated waste packaging assessments primarily applies to England and Wales, as it is part of UK-wide initiatives that predominantly follow regulations set by England and Wales, with differing regulations in Scotland."
+}

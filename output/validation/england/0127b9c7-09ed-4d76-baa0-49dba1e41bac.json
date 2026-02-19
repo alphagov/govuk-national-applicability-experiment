@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The review of AI deployment in electricity networks is relevant to England as it directly pertains to the management and improvement of the electricity grid, which is primarily governed by UK laws and regulations that affect England's energy infrastructure."
+}

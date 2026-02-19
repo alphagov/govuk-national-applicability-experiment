@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The document pertains to actions taken by the UK Government and specifically mentions the Secretary of State and UKEF, which are UK-level entities. It does not cite any specific relevance or application to Scotland or its devolved government."
+}

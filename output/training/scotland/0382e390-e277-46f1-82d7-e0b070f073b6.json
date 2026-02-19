@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "This document specifically pertains to funding opportunities provided by the UK Space Agency for researchers affiliated with UK Research Organisations, thus it does not apply to Scotland as a separate entity; however, it applies to researchers located in Scotland as part of the UK."
+}

@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The Freedom of Information Act 2000 primarily applies to England and does not cover Scotland, which has its own Freedom of Information legislation under the Freedom of Information (Scotland) Act 2002."
+}

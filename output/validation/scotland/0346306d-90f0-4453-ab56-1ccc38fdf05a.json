@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The Strategic Defence Review is a document related to UK-wide defense policy and strategy. However, defense is a reserved matter in the UK, meaning that specific policies affecting Scotland are centrally determined by the UK government, and thus it does not apply distinctly to Scotland as a separate nation."
+}

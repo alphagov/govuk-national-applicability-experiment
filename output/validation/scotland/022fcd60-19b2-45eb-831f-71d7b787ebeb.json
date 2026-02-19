@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "This guidance specifically pertains to procurement frameworks established by the UK government, which do not extend to Scotland, as Scotland has its own procurement regulations governed by the Public Contracts (Scotland) Regulations 2015 and other local laws."
+}

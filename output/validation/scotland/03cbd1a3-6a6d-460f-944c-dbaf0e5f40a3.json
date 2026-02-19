@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The Automated Vehicles Act Implementation Programme is relevant to Scotland as it pertains to the safe deployment and regulation of automated vehicles across Great Britain, which includes Scotland. The reference to the Scottish Law Commission indicates collaboration and regulatory considerations that extend to Scottish jurisdiction."
+}

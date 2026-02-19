@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The document specificially references the Office for Product Safety and Standards, which is primarily a body that operates within England. It does not address or apply to the distinct regulatory frameworks or agencies in Scotland."
+}

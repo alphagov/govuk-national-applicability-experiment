@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The document pertains to intellectual property (IP) offices and their forecasting methods, which apply to England as the UK has a unified system for IP that includes the Intellectual Property Office (IPO) based in England."
+}

@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "The report focuses on the use of predictive algorithms in relation to the Probation Service, which operates differently in Scotland due to devolved powers regarding justice and penal policy."
+  "reason": "This report specifically pertains to England and Wales, focusing on the Probation Service, which operates only in these jurisdictions. Scotland has its own distinct legal and probation systems not covered by this report."
 }

@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The document specifically discusses the Private Healthcare Information Network (PHIN) and its compliance with the Competitive Markets Authority (CMA) regulations, which primarily pertain to England's healthcare system. There is no indication that this compliance or the activities of PHIN extend to Scotland's distinct healthcare framework."
+}

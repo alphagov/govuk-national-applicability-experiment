@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The document focuses on official statistics regarding benefit sanctions, which primarily relate to the welfare system in England, Wales, and Northern Ireland. Scotland has its own devolved welfare powers, meaning these specific statistics do not apply."
+}

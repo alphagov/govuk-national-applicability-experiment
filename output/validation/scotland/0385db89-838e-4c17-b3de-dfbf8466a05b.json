@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "This document relates specifically to HMRC processes and tax regulations that apply to England, Wales, and Northern Ireland. Scotland has its own taxation system and authority, known as Revenue Scotland, which manages income tax and other financial matters independently."
+}

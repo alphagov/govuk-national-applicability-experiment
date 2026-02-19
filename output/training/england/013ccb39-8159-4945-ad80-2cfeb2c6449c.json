@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document refers to a teacher misconduct panel outcome in Worcestershire, which is located in England. It cites regulations specifically applicable to England, indicating that it pertains to the governance of the teaching profession within that nation."
+  "reason": "This document pertains to a teacher misconduct case in Worcestershire, West Midlands, which is located in England. The references to the Teachers’ Disciplinary (England) Regulations 2012 indicate that the regulation and processes discussed are applicable only to England."
 }

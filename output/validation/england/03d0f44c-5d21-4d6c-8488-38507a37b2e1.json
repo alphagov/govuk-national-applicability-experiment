@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document specifically references the survey conducted within England, focusing on adult carers in relation to local councils and the Department of Health and Social Care, which are England-specific entities."
+  "reason": "The document specifically pertains to the survey of adult carers in England, indicating it is designed for the services and policies relevant to England's adult social care framework."
 }

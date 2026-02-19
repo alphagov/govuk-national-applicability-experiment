@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document pertains to the CAC (Central Arbitration Committee) outcome related to union matters, which typically applies to England and Wales. Scotland has its own separate arrangements for labour relations and disputes."
+  "reason": "This document pertains specifically to employment and labor dispute resolutions managed by the Central Arbitration Committee (CAC) in England and Wales, and does not apply to Scotland, as Scotland has its own distinct legal framework for employment matters."
 }

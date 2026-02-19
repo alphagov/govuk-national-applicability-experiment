@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This statutory guidance relates to the Housing and Regeneration Act 2008, which is relevant to England. The guidance specifically outlines the regulatory powers and obligations for registered providers of social housing in England, including enforcement and compliance standards."
+  "reason": "This statutory guidance applies to England as it pertains specifically to the Housing and Regeneration Act 2008, which is legislation enacted by the UK Parliament that governs matters related to housing and social housing providers in England."
 }

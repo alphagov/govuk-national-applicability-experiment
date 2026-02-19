@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document pertains to the Heat Network Technical Assurance Scheme (HNTAS), which relates to energy and infrastructure policy that is applicable across the UK, including Scotland. Although energy policies are generally devolved, certain frameworks like HNTAS may be aligned to ensure consistency across the nations."
+  "reason": "This document applies to Scotland as it pertains to the Heat Network Technical Assurance Scheme, which is relevant to heat network regulations and standards that can impact energy infrastructure and efficiency across the UK, including Scotland."
 }

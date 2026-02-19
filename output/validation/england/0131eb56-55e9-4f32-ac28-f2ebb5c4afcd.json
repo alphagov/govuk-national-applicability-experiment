@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document specifically states that it provides statistics on staffing levels for HM Prison and Probation Service in England and Wales, indicating its relevance to England."
+  "reason": "The document specifically provides statistics and information related to the staffing levels of the HM Prison and Probation Service, which operates in England and Wales."
 }

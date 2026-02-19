@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The content discusses pensions engagement and policy developments relevant to workplace pensions, which applies across the UK, including Scotland, as pensions are a devolved matter and the insights can influence practices in Scotland's pension policy."
+}

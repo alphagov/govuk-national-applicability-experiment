@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "This document applies to Scotland as it deals with the importation of live animals and germinal products, which are regulated under both devolved and reserved matters in the UK. Animal welfare and import regulations are aspects managed by the Scottish Government."
+}

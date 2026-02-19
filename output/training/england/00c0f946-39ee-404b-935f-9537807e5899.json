@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document applies to England as it addresses charity banking regulations and guidance relevant to charities operating in the UK, including specific references to the Charity Commission, which primarily governs charities in England and Wales."
+  "reason": "This guidance applies to England as it is issued by the Charity Commission, which regulates charities in England and Wales. It also addresses specific issues relevant to operating charities within England's financial system."
 }

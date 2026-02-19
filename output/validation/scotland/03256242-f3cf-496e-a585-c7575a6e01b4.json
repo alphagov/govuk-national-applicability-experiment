@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The Payment Services (Amendment) Regulations 2024 primarily relate to financial regulations that are applicable to the UK as a whole, but specific implementations may differ in Scotland due to devolved powers over certain financial matters."
+}

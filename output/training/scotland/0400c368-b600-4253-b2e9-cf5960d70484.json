@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "The document specifically addresses procedures related to heat networks in England and does not extend to Scotland, where separate regulations and policies govern energy systems."
+  "reason": "The document pertains to specific technical procedures related to heat networks in communal settings, which fall under devolved competencies in energy policy. As such, Scotland has its own distinct regulations and frameworks for heat networks that may differ from those outlined in the document."
 }

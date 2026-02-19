@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The document concerns short-term lets, which are regulated in Scotland under specific legislation such as the Licensing of Short-Term Lets (Scotland) Regulations 2021. As these regulations are applicable and relevant to Scotland, the information presented will also apply to that nation."
+}

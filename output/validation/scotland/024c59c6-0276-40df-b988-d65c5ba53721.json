@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The document pertains to business demography statistics which are primarily relevant to England and may not reflect the specific business environment or statistical requirements of Scotland, where different economic policies and data collection methods may exist."
+}

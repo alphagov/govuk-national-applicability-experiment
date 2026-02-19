@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "This document specifically addresses topics related to HM Passport Office staff, which applies primarily to England and Wales. There are different legal frameworks and systems in place in Scotland for matters of nationality and civil partnerships."
+}

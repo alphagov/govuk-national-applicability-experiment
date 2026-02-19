@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document relates to the abstraction of water, which falls under the jurisdiction of the Environment Agency in England, hence it applies specifically to England."
+  "reason": "This application pertains to water abstraction, which is managed by the Environment Agency, an organization responsible for environmental protection in England. Therefore, it applies specifically to England."
 }

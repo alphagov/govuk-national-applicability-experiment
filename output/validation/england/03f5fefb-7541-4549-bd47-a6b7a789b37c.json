@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document pertains to the Heat Network Technical Assurance Scheme (HNTAS), which is a relevant regulatory framework in England aimed at improving the performance and reliability of heat networks."
+  "reason": "This document pertains to the technical specifications for existing heat networks in England, as it references the Heat Network Technical Assurance Scheme (HNTAS), which is primarily developed and implemented in England. It relates to the regulatory framework and operational standards applicable to heat networks in this region."
 }

@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document specifically pertains to local authority revenue expenditure and financing in England for the financial year 2025 to 2026, indicating it is relevant only to England."
+  "reason": "This document specifically relates to local authority revenue expenditure and financing in England, as indicated by the context of the budget estimates for local authorities within the country."
 }

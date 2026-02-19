@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The Bounce Back Loan scheme is not applicable in Scotland as it is primarily an England and Wales specific initiative, with separate financial support measures in place for businesses in Scotland."
+}

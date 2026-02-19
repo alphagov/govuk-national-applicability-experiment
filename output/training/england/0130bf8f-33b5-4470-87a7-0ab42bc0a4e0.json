@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The report focuses on youth justice services and their experiences following public disorder events, which is relevant to England as it pertains to the operation of these services and their frameworks within the English legal system."
+  "reason": "The report focuses on Youth Justice Services (YJSs) in England, addressing the legal framework, operational practices, and outcomes specific to England's youth justice system following public disturbances."
 }

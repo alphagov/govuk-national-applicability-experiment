@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The document primarily discusses services provided by the Animal and Plant Health Agency (APHA) that are specifically available in England, Wales, and Scotland, indicating it applies to England as part of the broader UK context."
+}

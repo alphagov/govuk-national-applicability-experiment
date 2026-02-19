@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The guidelines outlined are implemented by the MHRA (Medicines and Healthcare products Regulatory Agency) in the UK, which operates under the regulatory framework of England. Consequently, these guidelines directly apply to England's pharmaceutical regulations and practices."
+}

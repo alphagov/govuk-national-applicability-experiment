@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "This document pertains to UK Export Finance, which is a government department operating within England, and the reporting of expenditure on government procurement cards falls under UK government financial regulations, thus it is applicable to England."
+}

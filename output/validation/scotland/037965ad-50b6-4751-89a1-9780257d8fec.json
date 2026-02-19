@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "This document pertains specifically to HM Revenue and Customs (HMRC) and its activities in relation to the tobacco industry, which primarily affects England and the devolved administrations differently. Scotland has its own governance and regulations concerning public health and tobacco control, thus the specifics may not directly apply."
+}

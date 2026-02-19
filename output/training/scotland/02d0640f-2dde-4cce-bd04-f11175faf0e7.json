@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The Index of Services is a UK-wide statistical measure that collects data relevant to all four nations, including Scotland. Therefore, the statistics are applicable and provide insight into the economic activities across the entire UK, including Scotland."
+}

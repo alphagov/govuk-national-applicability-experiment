@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document pertains to further education policies, funding rates, and grants which operate under the jurisdiction of England's education system, specifically involving early career teachers, academies, and local authorities."
+  "reason": "This document contains updates and information specifically relevant to further education, schools, and local authorities in England, including funding allocations and grant conditions. Therefore, it applies to England."
 }
