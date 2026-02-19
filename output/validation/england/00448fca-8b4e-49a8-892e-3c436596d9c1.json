@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document pertains to the regulatory judgements of social landlords in England, specifically relating to the North East Derbyshire District Council, which is located in England."
+  "reason": "The document pertains to regulatory judgements for landlords, which is relevant to England as it falls under the jurisdiction of the Regulator of Social Housing. This regulation specifically addresses housing standards and landlord performance in England."
 }

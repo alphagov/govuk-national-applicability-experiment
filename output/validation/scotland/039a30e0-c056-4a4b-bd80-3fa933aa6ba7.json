@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document pertains specifically to policies set by the Department for Levelling Up, Housing and Communities in England. Housing and rental policies, including rent caps and formulas, are devolved matters in Scotland, meaning the Scottish Government sets its own regulations regarding rent increases and social housing."
+  "reason": "This document specifically applies to social housing policies outlined by the Department for Levelling Up, Housing and Communities for England. Scotland has its own housing regulations, and this guidance does not apply to those frameworks."
 }

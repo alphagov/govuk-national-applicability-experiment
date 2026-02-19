@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This technical note applies to England as it outlines the methodologies for calculating funding rates for early years entitlements, which are governed by the Department for Education (DfE) in England and do not extend to Northern Ireland, Scotland, or Wales."
+  "reason": "The document pertains to the early years national funding formulas in England, detailing the methodology used to calculate funding for local authorities for early years education and childcare. This specific funding arrangement, including the entitlements and calculations mentioned, is applicable only within the jurisdiction of England."
 }

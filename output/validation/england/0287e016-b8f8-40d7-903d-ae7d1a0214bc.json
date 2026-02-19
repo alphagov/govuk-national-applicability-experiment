@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document pertains specifically to the English Housing Survey, which is focused exclusively on housing circumstances and conditions in England. Therefore, it is applicable only to England."
+  "reason": "The document pertains specifically to the English Housing Survey, which is a national survey conducted to assess housing circumstances and conditions within England, indicating that it is relevant only to England."
 }

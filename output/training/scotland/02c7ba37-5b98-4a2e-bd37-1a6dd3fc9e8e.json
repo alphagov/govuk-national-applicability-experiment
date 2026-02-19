@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This report focuses specifically on norovirus and rotavirus activity in England and is derived from surveillance systems and health regulations that apply exclusively to England. Therefore, it does not apply to Scotland, which has its own health frameworks and separate data management systems."
+  "reason": "This report explicitly covers data and regulations pertaining to England only and does not mention any equivalent legislation, data collection, or public health frameworks relevant to Scotland."
 }

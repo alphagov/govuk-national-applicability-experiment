@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document pertains specifically to workforce management information from the Department for Work and Pensions (DWP), which mainly operates within England and Wales. Therefore, it does not apply to Scotland."
+  "reason": "This document pertains specifically to the Department for Work and Pensions (DWP), which is a UK government department focused primarily on policies and services in England, Wales, and Northern Ireland. It does not cover Scotland, where welfare policies are largely devolved to the Scottish Government."
 }

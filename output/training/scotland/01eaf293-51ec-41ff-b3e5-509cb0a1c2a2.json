@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
-  "applies_to_nation": true,
-  "reason": "The document relates to fire safety improvements for vulnerable residents, which is applicable across the UK, including Scotland, as fire safety regulations and practices are relevant to all nations in the UK."
+  "applies_to_nation": false,
+  "reason": "This document does not apply to Scotland as it focuses on legislation and guidance relevant to England, particularly concerning fire safety protocols and responsibilities for Responsible Persons. Fire safety regulations in Scotland differ, with separate standards and guidance, such as the Fire (Scotland) Act 2005 and associated rules."
 }

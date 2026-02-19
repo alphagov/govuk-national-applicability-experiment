@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
-  "applies_to_nation": true,
-  "reason": "The Dedicated Schools Grant (DSG) assurance statement guidance is applicable to all four nations in the UK but primarily addresses requirements for England. However, aspects of the funding framework described may have relevance or be mirrored in regulations or practices in Scotland, making the guidance indirectly relevant."
+  "applies_to_nation": false,
+  "reason": "This document pertains specifically to local authorities in England and their financial responsibilities associated with the Dedicated Schools Grant (DSG). The guidance and regulations mentioned do not apply to Scotland, which has its own education financing framework and regulations."
 }

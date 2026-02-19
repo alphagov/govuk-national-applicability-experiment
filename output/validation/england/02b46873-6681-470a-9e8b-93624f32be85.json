@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document pertains to an environmental permit application by Kensa Contracting Limited, which falls under the jurisdiction of the Environment Agency, applicable in England."
+  "reason": "This document is related to the environmental permit application process, which is managed by the Environment Agency in England. Therefore, it specifically applies to England."
 }

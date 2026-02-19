@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The COVER programme specifically evaluates childhood immunisation in England, indicating that its data and reports pertain solely to England."
+  "reason": "The document specifically discusses the COVER programme, which evaluates childhood immunisation exclusively in England, indicating that it is relevant to England."
 }

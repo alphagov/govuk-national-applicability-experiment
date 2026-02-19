@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This regulatory position statement (RPS 326) is specifically issued by the Environment Agency, which is responsible for environmental regulation in England. It does not apply to Scotland as environmental governance is managed by the Scottish Environment Protection Agency (SEPA), which has different regulations and RPS guidelines."
+  "reason": "This regulatory position statement (RPS) is specific to the Environment Agency in England, and does not apply to Scotland. Regulatory frameworks for waste management and environmental compliance are governed separately in Scotland by SEPA (Scottish Environment Protection Agency), which has different rules and requirements."
 }

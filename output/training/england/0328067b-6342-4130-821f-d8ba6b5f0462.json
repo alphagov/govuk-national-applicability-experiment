@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document pertains to cervical screening information provided by the NHS, which operates in England. Therefore, it specifically applies to England, as it follows the health guidelines and procedures established by the NHS for this nation."
+  "reason": "Il documento fornisce informazioni dettagliate sullo screening della cervice uterina, che è un programma di salute pubblica gestito dal NHS, specifico per l'Inghilterra. Le procedure, le linee guida, e le informazioni sui diritti degli individui riguardo allo screening si riferiscono direttamente ai cittadini e residenti dell'Inghilterra."
 }

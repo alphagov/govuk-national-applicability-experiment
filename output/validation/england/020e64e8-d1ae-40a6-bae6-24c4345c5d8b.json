@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document pertains to planning permission in Leyland, Lancashire, which is located in England. Therefore, it applies specifically to England."
+  "reason": "The document details a planning appeal related to land adjacent to HMP Garth and HMP Wymott in Leyland, Lancashire, which is located in England. Therefore, it applies specifically to England."
 }

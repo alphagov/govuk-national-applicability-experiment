@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document specifically refers to HIV testing conducted in community settings within England, indicating its exclusive relevance to English health policy and practices."
+  "reason": "The document specifically mentions the UK Health Security Agency's survey of HIV testing conducted in community settings in England, indicating its relevance to this nation."
 }

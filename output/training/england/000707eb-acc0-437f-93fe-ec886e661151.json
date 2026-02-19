@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document pertains to the environmental permit application process regulated by the Environment Agency, which operates in England. Therefore, it applies to England as it outlines the procedures and requirements specific to England’s environmental regulations and public participation. The geographical reference IP16 4UR also indicates a location in England."
+  "reason": "The document pertains to an environmental permit application from the Environment Agency, which operates in England. Therefore, it applies specifically to England."
 }

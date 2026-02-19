@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This statistical commentary specifically details the stock of non-domestic properties and their rateable values for England and Wales, emphasizing the data for England, including statistics on property counts, regional distributions, and sector breakdowns pertinent to the English rating system."
+  "reason": "This statistical commentary pertains specifically to non-domestic rating properties in England, as indicated by the detailed breakdown of statistics and property data that primarily focuses on England's local rating list, whereas additional data for Wales is included but not the same level of detail."
 }

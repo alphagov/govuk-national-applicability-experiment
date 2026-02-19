@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This initiative specifically relates to legal aid and advice within England, particularly through pilot schemes conducted in Manchester and Middlesbrough, indicating its direct relevance to England."
+  "reason": "This document applies to England as it pertains to the Early Legal Advice Pilot initiated by the Ministry of Justice (MOJ) specifically within English cities (Manchester and Middlesbrough) and relates to English legal aid provisions."
 }

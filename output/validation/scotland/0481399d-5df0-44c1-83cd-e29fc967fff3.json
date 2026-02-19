@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The topic of nature-based solutions and their effectiveness in freshwater environments is relevant to Scotland, as environmental management and river catchment health are significant issues within Scottish policy and conservation efforts."
+  "reason": "This document applies to Scotland as nature-based solutions are relevant in addressing environmental management and river catchment issues across the UK, including Scotland, where catchment management is critical for freshwater conservation."
 }

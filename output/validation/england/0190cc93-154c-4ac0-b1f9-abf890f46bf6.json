@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document relates to Hertfordshire County Council, which is located in England. Therefore, it applies specifically to England."
+  "reason": "This document applies to England as Hertfordshire County Council is located in England, and the improvement notice is issued based on inspections conducted by Ofsted and the Care Quality Commission, which oversee child services in England."
 }

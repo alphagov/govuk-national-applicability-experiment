@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document focuses on retail sales data, which is relevant to the economic analysis and statistical reporting for England as part of Great Britain. As such, it applies to England in conjunction with the broader context of retail trends across the UK."
+  "reason": "The document pertains to 'Retail Sales' statistics which are typically collected and reported for Great Britain as a whole, including England. Therefore, it applies to England."
 }

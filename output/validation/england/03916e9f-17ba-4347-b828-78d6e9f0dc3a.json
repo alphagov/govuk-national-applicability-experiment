@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document pertains to the operations and data handling practices of the Ministry of Housing, Communities and Local Government (MHCLG) in relation to the New Towns Taskforce, which is applicable in England."
+  "reason": "This document pertains to the Ministry of Housing, Communities and Local Government (MHCLG), which is a UK Government department responsible for housing in England. It outlines data protection practices relevant to the collection of personal data for a consultation process targeting stakeholders primarily in England."
 }

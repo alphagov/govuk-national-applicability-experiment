@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The Standards and Testing Agency (STA) operates as part of the Department for Education, which oversees education policy in England. Therefore, the report specifically pertains to educational assessments relevant to England."
+  "reason": "This document applies to England as it involves the Standards and Testing Agency, which is part of the Department for Education in England, focusing on assessments for children in the English education system."
 }

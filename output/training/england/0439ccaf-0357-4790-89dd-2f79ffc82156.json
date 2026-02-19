@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This report focuses exclusively on norovirus and rotavirus activity in England, including specific data and trends relevant to the population and healthcare settings in England. Therefore, it applies directly to England."
+  "reason": "The report specifically discusses norovirus and rotavirus activity in England, detailing laboratory and outbreak data that are directly relevant to public health monitoring and response strategies in England."
 }

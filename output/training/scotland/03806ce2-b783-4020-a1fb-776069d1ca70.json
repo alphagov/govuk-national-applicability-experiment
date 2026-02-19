@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
-  "applies_to_nation": true,
-  "reason": "This document applies to Scotland as it involves regulations concerning the export of captive birds, which fall under animal health and trade regulations that are applicable across the UK, including Scotland."
+  "applies_to_nation": false,
+  "reason": "This document is specifically about regulations concerning the manufacture or supply of microchips for exported birds, which apply only to England, and possibly to Northern Ireland. It does not mention specific regulations or adaptations for Scotland."
 }

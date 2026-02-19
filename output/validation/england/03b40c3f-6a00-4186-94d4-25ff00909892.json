@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document pertains to the Planning Inspectorate, which operates within the framework of the UK government and specifically focuses on planning and housing matters primarily applicable to England."
+  "reason": "This document pertains to expenditure data from the Planning Inspectorate, which is a part of the UK government's Housing, Communities & Local Government department. Since the Planning Inspectorate operates primarily in England, the data is relevant to English public finance and accountability."
 }

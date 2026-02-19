@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document contains statistics specifically related to the stock of domestic properties and Council Tax bands in England and Wales, explicitly indicating that the data does not cover Scotland and Northern Ireland. Therefore, it applies to England."
+  "reason": "The document specifically includes statistics about the stock of domestic properties and Council Tax bands in England and states that the data relates to England and Wales, indicating its applicability to England."
 }

@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document specifically mentions the nominal roll of consultant awards in England and Wales, indicating its relevance to both nations."
+  "reason": "This document specifically mentions 'England and Wales' and discusses the nominal roll of consultant awards relevant to both regions, indicating its applicability to England."
 }

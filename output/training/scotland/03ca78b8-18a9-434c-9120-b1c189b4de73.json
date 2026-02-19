@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
-  "applies_to_nation": true,
-  "reason": "This document pertains to environmental regulations and waste management practices, which apply across the UK, including Scotland. However, specific implementation details may vary due to devolved environmental governance in Scotland, but the overarching principles remain relevant."
+  "applies_to_nation": false,
+  "reason": "This document pertains specifically to England as it references the Environment Agency and standard rules permits applicable in England. Environmental regulations and waste management practices can differ in Scotland, where the Scottish Environment Protection Agency (SEPA) governs such matters."
 }

@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document details a local government initiative in Southwark, England, focused on community engagement and does not pertain to or involve any aspects of governance or policy in Scotland."
+  "reason": "The WeWalworth project is specific to Southwark Council in London, England. It does not apply to Scotland as it is focused on areas and issues relevant only to this part of the UK."
 }

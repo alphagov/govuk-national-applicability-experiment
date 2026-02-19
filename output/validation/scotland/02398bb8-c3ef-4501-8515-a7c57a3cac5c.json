@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This guidance specifically pertains to upland farmland and moorland in the north of England, focusing on conservation measures and woodland creation, which are not applicable to Scotland. Scotland has its own environmental and ecological guidelines overseen by different governmental bodies."
+  "reason": "This guidance specifically applies to upland farmland and moorland in northern England and does not mention applicability to Scotland, as it focuses on regulations and species management relevant to English contexts only."
 }

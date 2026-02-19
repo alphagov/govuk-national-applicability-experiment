@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This report pertains specifically to screening data and performance metrics for England. It does not mention any relevant guidelines or practices specific to Scotland."
+  "reason": "This document focuses on Key Performance Indicators (KPIs) for antenatal and newborn screening predominantly within England. Scotland has its own distinct health governance and screening frameworks, thus the information regarding the NHS England KPIs is not applicable to Scotland."
 }

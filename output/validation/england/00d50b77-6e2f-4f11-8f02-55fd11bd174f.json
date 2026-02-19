@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document specifically addresses epidemiological data regarding infections and health trends within England, highlighted by statistics, surveillance, and regional influences associated with public health, which are relevant under the jurisdiction of England's health policies."
+  "reason": "The document pertains to the epidemiological trends of various infections specifically within NHS acute trusts in England, indicating its relevance to the healthcare system and public health monitoring in England."
 }

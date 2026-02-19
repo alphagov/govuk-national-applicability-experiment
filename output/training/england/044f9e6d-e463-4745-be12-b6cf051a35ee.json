@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The JETS (Job Entry Targeted Support) scheme was implemented in England and Wales, providing tailored employment support services aimed at helping individuals return to work following the disruption caused by the Covid-19 pandemic. The evaluation and impact results specifically pertain to these areas, confirming its applicability to England."
+  "reason": "The JETS scheme was implemented primarily in England and Wales and the evaluation reported focuses specifically on these areas, making it applicable to England."
 }

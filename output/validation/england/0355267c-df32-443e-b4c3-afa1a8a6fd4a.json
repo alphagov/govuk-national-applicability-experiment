@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document pertains to a planning permission appeal in Slough, which is located in England. Therefore, it is applicable to England."
+  "reason": "This document applies to England as it involves planning permission under UK law, which is a matter devolved to the individual nations. The reference to a specific site in Dorney, Slough, indicates it is in England."
 }

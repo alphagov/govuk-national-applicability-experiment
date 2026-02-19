@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document primarily pertains to England as it addresses the financial and performance details of the Institute for Apprenticeships and Technical Education, which operates within the English education and training system. It does not encompass the devolved education systems of Scotland, Wales, or Northern Ireland."
+  "reason": "This report pertains to the Institute for Apprenticeships and Technical Education, which is an England-specific organization and does not cover Scotland's education and apprenticeship system."
 }

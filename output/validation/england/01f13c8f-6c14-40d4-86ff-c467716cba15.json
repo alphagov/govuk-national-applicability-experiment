@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document pertains to biodiversity metric tools and guides that are applicable across England, as it relates to statutory responsibilities and guidelines for biodiversity calculations and assessments within the UK framework."
+  "reason": "The document regarding statutory biodiversity metric tools and guides is applicable to England, as it is directly related to policies and tools that regulate biodiversity metrics under the framework established by the UK government, which includes specific metrics and guidance used predominantly in England."
 }

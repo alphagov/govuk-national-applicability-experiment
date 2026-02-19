@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The Planning Inspectorate (PINS) operates under the Department for Housing, Communities and Local Government, which applies to England. Therefore, this spend data is relevant for England."
+  "reason": "The Planning Inspectorate (PINS) operates under the UK Government and is specifically aligned with the Ministry of Housing, Communities and Local Government, which applies to England. Therefore, the spending data reflects activities that are relevant to England."
 }

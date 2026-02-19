@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The statistics on freight rail usage and performance apply to Scotland as they provide insights into the rail freight sector, which is managed on a UK-wide basis, including Scotland."
+  "reason": "The statistics on freight rail usage and performance are relevant to all regions of the UK, including Scotland, as they provide insights into transport infrastructure and efficiency that impact the entire country."
 }

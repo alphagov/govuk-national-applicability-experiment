@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document mentions that the 'Student Support for Higher Education' statistics series covers England, Wales, and Northern Ireland, which indicates its relevance to England."
+  "reason": "The document mentions changes to the statistics series 'Student Support for Higher Education' that includes coverage for England, Wales, and Northern Ireland, indicating its applicability to England."
 }

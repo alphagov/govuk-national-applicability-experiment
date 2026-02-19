@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document outlines standards and expectations for registered housing providers, which is relevant to landlord services regulated under UK housing laws, specifically applicable in England. The guidance pertains to tenants in social housing, which falls under the jurisdiction of housing policies implemented in England."
+  "reason": "The proposed revised TI&A Standard pertains directly to housing and landlord services, which are regulated in England. Therefore, it applies to England and is relevant for all registered housing providers operating within the country."
 }

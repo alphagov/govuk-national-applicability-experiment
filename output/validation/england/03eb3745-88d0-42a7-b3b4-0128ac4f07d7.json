@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document specifically pertains to the Yorkshire and the Humber region, which is located in England. It discusses educational programs, initiatives, and resources aimed at improving school standards and support within this specific area, thereby making it relevant only to England."
+  "reason": "This document specifically discusses educational initiatives and programmes in the Yorkshire and the Humber region, which is part of England. Therefore, it applies to England."
 }

@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document pertains to the Safety of Women at Night Fund, which was specifically implemented and evaluated in England and Wales. Given that it involves government policy and funding initiatives directly impacting public safety and local governance in England, it is relevant to that nation."
+  "reason": "This document pertains to the UK government's Safety of Women at Night Fund, which specifically included initiatives and evaluations applicable to England, as evidenced by references to England in the context of funding allocations, evaluations, and local authority partnerships within the text."
 }

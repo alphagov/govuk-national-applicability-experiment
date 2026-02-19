@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document is relevant to England as it discusses vehicle speed compliance statistics specifically derived from data collected by the Department for Transport, which oversees transport policies and statistics in England. While it may reference broader UK statistics, the data sources and analysis pertain primarily to England."
+  "reason": "The vehicle speed compliance statistics are relevant to England as they are based on data from the Department for Transport and specifically mention regulations and statistics applicable across Great Britain, which includes England."
 }

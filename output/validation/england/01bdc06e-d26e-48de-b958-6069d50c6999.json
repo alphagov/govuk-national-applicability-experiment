@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This planning application pertains to a location in Stebbing, which is situated in Essex, England. As such, it is relevant to the planning regulations and processes applicable in England."
+  "reason": "The document pertains to a planning application in Stebbing, which is located in Essex, England. Therefore, it applies to England."
 }

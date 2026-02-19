@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document specifically pertains to mental health investigations in England under the Health and Care Act 2022, and does not apply to Scotland, as health services are devolved matters and Scotland has its own legislation and governing bodies related to health care."
+  "reason": "This document specifically pertains to the Health Services Safety Investigations Body (HSSIB) in England, as it relates to legislation and healthcare services under the jurisdiction of the Secretary of State for Health and Social Care in England. It does not apply to Scotland, which has its own separate health governance and investigation bodies."
 }

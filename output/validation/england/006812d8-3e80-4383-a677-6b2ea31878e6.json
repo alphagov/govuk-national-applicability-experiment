@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document applies to England as it discusses standards and requirements for registered providers of housing and landlord services that align with the regulatory framework established by the UK government, which is primarily implemented in England for social housing providers."
+  "reason": "The Transparency, Influence and Accountability Standard is relevant to England as it outlines regulations for registered housing providers operating within this jurisdiction. It establishes consumer standards aimed at ensuring fairness, respect, and accountability in landlord-tenant relationships, which applies specifically to English housing policies."
 }

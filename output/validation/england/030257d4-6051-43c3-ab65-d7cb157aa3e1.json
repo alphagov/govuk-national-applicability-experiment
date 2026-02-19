@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document specifically addresses Individual Voluntary Arrangements (IVAs) in England and Wales, explaining the procedures and outcomes related to these debt solutions, thereby confirming its applicability to England."
+  "reason": "This document relates to Individual Voluntary Arrangements (IVAs) which are regulated under laws applicable in England and Wales, making it relevant for England. The statistics and methodology outlined are specifically derived from data held by the Insolvency Service, an executive agency of the Department for Business and Trade in England."
 }

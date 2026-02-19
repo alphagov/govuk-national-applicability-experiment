@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document pertains specifically to surveillance data and epidemiological analysis reported for England. It does not mention application or data relevant to Scotland, indicating that the findings and statistics are not applicable there."
+  "reason": "This document specifically addresses data and trends regarding Gram-negative bacteria and related infections in England only. It does not include information or data applicable to Scotland, Wales, or Northern Ireland."
 }

@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The National Travel Survey (NTS) specifically focuses on personal travel within Great Britain, and the sample for the mid-year estimates includes households drawn from England, making it applicable to England."
+  "reason": "The National Travel Survey focuses on personal travel within Great Britain, specifically including England, as data collection for the survey incorporates a random sample of households drawn from England's postcode addresses."
 }

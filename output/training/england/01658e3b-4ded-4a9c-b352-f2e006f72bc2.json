@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document applies to England as it is related to Ofqual, the Office of Qualifications and Examinations Regulation, which is the regulator for qualifications, exams, and assessments in England."
+  "reason": "This document pertains to the recognition process of Ofqual, which regulates qualifications in England. Therefore, it specifically applies to England."
 }

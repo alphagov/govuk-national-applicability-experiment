@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This statement applies to Scotland as it pertains to the integrity and impartiality of official statistics, which is relevant to all nations within the UK, including Scotland, where similar principles of statistical governance are upheld."
+  "reason": "The statement pertains to the production of official statistics in Great Britain, which includes Scotland, as it reflects national standards and principles applicable across the UK."
 }

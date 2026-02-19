@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document specifically addresses the Building Safety Regulator's activities and engagement with residents in England, as highlighted by references to the Building Safety Act 2022 and various initiatives aimed at enhancing building safety for high-rise residential buildings within the region."
+  "reason": "The document specifically discusses the Building Safety Regulator (BSR) and initiatives related to building safety legislation and resident engagement in high-rise buildings, which is applicable to England as it references the Building Safety Act 2022, legislated for England."
 }

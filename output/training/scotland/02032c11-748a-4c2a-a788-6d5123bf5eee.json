@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document specifically pertains to regulations related to Northern Ireland, indicating it does not apply to Scotland or any of the other UK nations."
+  "reason": "The document specifically pertains to Northern Ireland and relates to regulations under the Police and Criminal Evidence (Northern Ireland) Order. It does not apply to Scotland, as Scotland has its own distinct legal system and legislative framework."
 }

@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "The report specifically addresses Hepatitis B virus (HBV) issues within the South West region of England and presents findings from data relevant only to England, not Scotland, Wales, or Northern Ireland."
+  "reason": "This report specifically focuses on hepatitis B in the South West of England and does not include data or information relevant to Scotland. Health strategies and surveillance data for hepatitis B may differ across the UK regions, indicating a separate context and administrative framework in Scotland."
 }

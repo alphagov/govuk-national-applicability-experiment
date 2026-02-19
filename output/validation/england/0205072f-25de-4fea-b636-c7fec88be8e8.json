@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document applies to England as it is targeted at local authorities in England that are responsible for services related to children in need."
+  "reason": "This guidance is specifically directed at local authorities, which are a responsibility of the English government. The term 'Children in Need' and the associated census applies primarily to services in England."
 }

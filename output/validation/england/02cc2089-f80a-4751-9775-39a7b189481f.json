@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document provides information regarding the RSV vaccine rollout for older adults, which is a program implemented by the NHS, applicable to England, as part of public health initiatives."
+  "reason": "The RSV vaccine guidelines mentioned in the document pertain to the NHS vaccination program, specifically targeting adults aged 75 and above in England. Therefore, it applies to England as it outlines eligibility, vaccination details, and safety information relevant to the NHS healthcare setting."
 }

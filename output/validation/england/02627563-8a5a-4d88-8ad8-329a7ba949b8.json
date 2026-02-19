@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This guidance applies specifically to England, as it is related to the Environment Agency, which is the environmental regulator for combustion activities in England. The proposed regulations also amend the Environmental Permitting (England and Wales) Regulations 2016, indicating its applicability to England."
+  "reason": "This document specifically mentions the Environment Agency as the environmental regulator for combustion activities in England and references the Environmental Permitting (England and Wales) Regulations 2016. Additionally, it states that new decarbonisation readiness requirements apply to permit applications submitted to the Environment Agency in England."
 }

@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document pertains to the Education and Skills Funding Agency (ESFA), which operates in England and focuses on funding and qualifications for further education, specifically the 16 to 19 tuition fund and related teaching initiatives."
+  "reason": "This document pertains to the Education and Skills Funding Agency (ESFA) regulations and funding guidance which apply specifically to providers in England. It references funding mechanisms, reporting obligations, and qualification achievement rates that are relevant to the English education system."
 }

@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This funding allocation guide is specific to further education institutions in England, detailing the calculation and distribution of revenue funding. It applies to institutions such as colleges and is intended for use within the English education system."
+  "reason": "This guide is relevant to England as it specifically addresses the funding allocation for further education institutions, which includes colleges and other providers operating under the Education and Skills Funding Agency in England."
 }

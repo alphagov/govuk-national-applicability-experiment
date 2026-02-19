@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document pertains to directions issued by the Secretary of State for Health and Social Care, specifically for mental health investigations conducted by the Health Services Safety Investigations Body in England, as stipulated in the Health and Care Act 2022."
+  "reason": "This document pertains to the Health Services Safety Investigations Body's operations regarding mental health care services within the NHS and independent sector, which are primarily governed by legislation applicable to England, specifically the Health and Care Act 2022."
 }

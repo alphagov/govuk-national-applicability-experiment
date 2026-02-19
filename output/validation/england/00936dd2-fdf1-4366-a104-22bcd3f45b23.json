@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This guidance document applies to products placed on the market in Great Britain, which includes England, Wales, and Scotland. It outlines the interpretation of medical device legislation, specifically the UK Medical Device Regulations, relevant to borderline products."
+  "reason": "This guidance applies to England as it references the UK Medical Device Regulations (UK MDR 2002) and is intended specifically for products placed on the market in Great Britain, which includes England, Wales, and Scotland. The document outlines the regulatory landscape for medical devices within this context."
 }

@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
-  "applies_to_nation": true,
-  "reason": "The draft assessment procedures for communal distribution networks are relevant to Scotland as they pertain to heat network regulations and standards, which are influenced by devolved energy policies and infrastructure development. Therefore, stakeholders in Scotland will need to adhere to or consider these procedures in their local implementations."
+  "applies_to_nation": false,
+  "reason": "The document specifically addresses procedures related to heat networks in England and does not extend to Scotland, where separate regulations and policies govern energy systems."
 }

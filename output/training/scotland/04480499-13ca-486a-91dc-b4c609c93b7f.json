@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document exclusively evaluates the European Social Fund (ESF) programme in England, indicating it specifically pertains to England and does not apply to Scotland, which operates its own distinct funding and employment support systems."
+  "reason": "This document pertains specifically to the European Social Fund programme in England, and the Department for Work and Pensions (DWP) is the managing authority. Therefore, it does not apply to Scotland, where a separate programme and evaluation would be administered."
 }

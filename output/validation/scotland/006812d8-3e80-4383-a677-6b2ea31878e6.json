@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "The document sets consumer standards primarily for registered providers in the context of England and does not specify applicability or adaptations for Scotland, which has its own legislative framework for housing and tenancy laws."
+  "reason": "The document primarily pertains to regulations and expectations for registered housing providers in England. It does not reference any specific legislative or regulatory framework that applies to Scotland, where housing regulations can differ significantly."
 }

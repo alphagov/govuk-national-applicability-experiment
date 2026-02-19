@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document specifically pertains to England as it mentions the Secretary of State for Health and Social Care and refers to NHS policies, which are devolved matters in Scotland. Scotland has its own separate NHS pay framework."
+  "reason": "This document pertains specifically to the NHS in England, and pay awards for resident doctors are determined separately in Scotland."
 }

@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document pertains to careers guidance and provision overseen by the Department for Education (DfE), which is specific to England and does not extend to Scotland, Wales, or Northern Ireland, where separate educational systems and policies are in place."
+  "reason": "This document pertains to careers guidance specifically in England as it references the Department for Education (DfE) and Ofsted, which are English governmental bodies. Therefore, it does not apply to Scotland."
 }

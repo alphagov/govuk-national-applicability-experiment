@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This guidance specifically pertains to England and the post-16 education system there. It does not apply to Scotland, which has its own distinct education and qualifications framework."
+  "reason": "This guidance pertains specifically to Skills England, which is focused on England's education and skills system. It does not apply to Scotland, as Scotland has its own distinct educational framework and qualifications system."
 }

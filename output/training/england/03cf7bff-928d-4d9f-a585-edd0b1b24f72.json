@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document applies to England as it involves the regulation of insolvency practitioners in the UK, which is overseen by the Insolvency Practitioners Association (IPA) based in England, affecting practices within English insolvency law."
+  "reason": "This document relates to a disciplinary action taken against an insolvency practitioner in England, as the Insolvency Practitioner Association (IPA) operates primarily under the laws and regulations applicable in England. Consequently, it is relevant for practitioners operating under English insolvency laws."
 }

@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The report pertains to the Institute for Apprenticeships and Technical Education, which operates across England, overseeing apprenticeship standards and technical education initiatives."
+  "reason": "The Institute for Apprenticeships and Technical Education is a body that operates in England, focusing on apprenticeship standards and technical education, which are devolved matters in the UK. Therefore, this report specifically applies to England."
 }
