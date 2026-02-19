@@ -52,6 +52,6 @@ COPY (
     union
     select * from content_items_all_nations
   )
-  select * from combined limit 500
+  select * from combined order by id asc limit 500
 ) to STDOUT WITH CSV HEADER;
 
