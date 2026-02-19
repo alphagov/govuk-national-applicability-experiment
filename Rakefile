@@ -30,7 +30,7 @@ end
 
 desc 'Randomly select 250 content ids to use as validation data'
 file 'data/validation_ids.txt' => ['data', 'data/national_applicability.csv', 'data/training_ids.txt'] do |f|
-  validation_ids = raw_data['id'] - training_ids
+  validation_ids = raw_data['id'] - content_item_ids
 
   File.open('data/validation_ids.txt', 'w') do |file|
     validation_ids.each do |id|
