@@ -11,3 +11,11 @@ Feasibility of using machine classification to determine national applicability 
 * Install Python libraries by running `pipenv install`.
 * Install the OpenRouter plugin for `llm` by running `pipenv run llm install llm-openrouter`.
 * Set the OpenRouter API key by running `pipenv run llm keys set openrouter --value $OPEN_ROUTER_API_KEY`.
+
+## Significant Whitehall commits & pull requests
+
+Some significant changes to the data model and validations for national applicability:
+* [Invert the data model regarding which policies apply to which nations](https://github.com/alphagov/whitehall/commit/6573f85076170638940cca5266281fc97ec86d29)
+* [Allow exclusion of england](https://github.com/alphagov/whitehall/pull/3766) [Feb 2018]
+* [Ensure editions have accurate UK Nation applicability](https://github.com/alphagov/whitehall/pull/5766) [Aug 2020]
+* [Set all_nation_applicability for withdrawn editions](https://github.com/alphagov/whitehall/pull/5790) [Sep 2020]
