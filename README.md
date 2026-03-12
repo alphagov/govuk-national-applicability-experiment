@@ -1,4 +1,4 @@
-# gds-national-applicability
+# GOV.UK National Applicability Experiment
 
 Feasibility of using machine classification to determine national applicability of GOV.UK content.
 
