@@ -29,7 +29,7 @@ desc 'Randomly select 250 content ids to use as training data'
 file TRAINING_IDS_TXT => [NATIONAl_APPLICABILITY_CSV] do |f|
   training_ids = raw_data['id'].sample(250, random: Random.new(SEED))
 
-  File.open(TRAINING_IDS_TXT, 'w') do |file|
+  File.open(f.name, 'w') do |file|
     training_ids.each do |id|
       file.puts(id)
     end
@@ -40,7 +40,7 @@ desc 'Randomly select 250 content ids to use as validation data'
 file VALIDATION_IDS_TXT => [NATIONAl_APPLICABILITY_CSV, TRAINING_IDS_TXT] do |f|
   validation_ids = raw_data['id'] - content_item_ids
 
-  File.open(VALIDATION_IDS_TXT, 'w') do |file|
+  File.open(f.name, 'w') do |file|
     validation_ids.each do |id|
       file.puts(id)
     end
@@ -185,9 +185,9 @@ MODES.each do |mode|
 end
 
 desc 'Prepare input CSV file by querying content store database'
-file NATIONAl_APPLICABILITY_CSV => DATA_DIR do
+file NATIONAl_APPLICABILITY_CSV => DATA_DIR do |f|
   query_file = File.join(File.dirname(__FILE__), 'query.sql')
-  output = NATIONAl_APPLICABILITY_CSV
+  output = f.name
 
   sh "govuk-docker up -d content-store-lite"
   sh "docker exec -i govuk-docker-content-store-lite-1 rails db < #{query_file} > #{output}"
