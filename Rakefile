@@ -11,11 +11,12 @@ NATIONS = ['england', 'scotland']
 
 DATA_DIR = Pathname.new('data')
 INPUT_DIR = Pathname.new('input')
+OUTPUT_DIR = Pathname.new('output')
 
 MODES.each do |mode|
   directory INPUT_DIR.join(mode)
   NATIONS.each do |nation|
-    directory "output/#{mode}/#{nation}"
+    directory OUTPUT_DIR.join("#{mode}/#{nation}")
   end
 end
 directory DATA_DIR
@@ -89,7 +90,7 @@ MODES.each do |mode|
   NATIONS.each do |nation|
     content_item_ids(mode).each do |id|
       desc "Prepare #{mode} output file #{id}.json"
-      file "output/#{mode}/#{nation}/#{id}.json" => ["output/#{mode}/#{nation}", INPUT_DIR.join("#{mode}/#{id}.json")] do |f|
+      file OUTPUT_DIR.join("#{mode}/#{nation}/#{id}.json") => [OUTPUT_DIR.join("#{mode}/#{nation}"), INPUT_DIR.join("#{mode}/#{id}.json")] do |f|
         input = JSON.load_file(INPUT_DIR.join("#{mode}/#{id}.json"))
         input_text = [input['title'], input['body']].join("\n\n")
 
@@ -123,7 +124,7 @@ end
 
 MODES.each do |mode|
   NATIONS.each do |nation|
-    file "output/#{mode}/#{nation}/results.csv" => content_item_ids(mode).map { |id| "output/#{mode}/#{nation}/#{id}.json" } do |f|
+    file OUTPUT_DIR.join("#{mode}/#{nation}/results.csv") => content_item_ids(mode).map { |id| OUTPUT_DIR.join("#{mode}/#{nation}/#{id}.json") } do |f|
       puts "Creating #{f.name}"
 
       CSV.open(f.name, 'w') do |csv|
@@ -131,7 +132,7 @@ MODES.each do |mode|
 
         content_item_ids(mode).each do |id|
           input_fn = INPUT_DIR.join("#{mode}/#{id}.json")
-          output_fn = "output/#{mode}/#{nation}/#{id}.json"
+          output_fn = OUTPUT_DIR.join("#{mode}/#{nation}/#{id}.json")
           input_json = JSON.load_file(input_fn)
           output_json = JSON.load_file(output_fn)
 
@@ -144,7 +145,7 @@ end
 
 MODES.each do |mode|
   NATIONS.each do |nation|
-    file "output/#{mode}/#{nation}/summary.txt" => "output/#{mode}/#{nation}/results.csv" do |f|
+    file OUTPUT_DIR.join("#{mode}/#{nation}/summary.txt") => OUTPUT_DIR.join("#{mode}/#{nation}/results.csv") do |f|
       puts "Creating #{f.name}"
       results = CSV.read(f.prerequisites[0], headers: true)
 
@@ -192,7 +193,7 @@ end
 desc 'Create input files used to dynamically generate all other tasks'
 task :setup => [DATA_DIR.join('training_ids.txt'), DATA_DIR.join('validation_ids.txt')]
 
-task :summaries => MODES.flat_map { |mode| NATIONS.map { |nation| "output/#{mode}/#{nation}/summary.txt" } }
+task :summaries => MODES.flat_map { |mode| NATIONS.map { |nation| OUTPUT_DIR.join("#{mode}/#{nation}/summary.txt") } }
 
 if File.exist?(DATA_DIR.join('training_ids.txt')) && File.exist?(DATA_DIR.join('validation_ids.txt'))
   task :default => :summaries
@@ -200,4 +201,4 @@ else
   task :default => :setup
 end
 
-CLOBBER.include('output', INPUT_DIR, DATA_DIR)
+CLOBBER.include(OUTPUT_DIR, INPUT_DIR, DATA_DIR)
