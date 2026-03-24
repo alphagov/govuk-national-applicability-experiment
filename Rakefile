@@ -9,8 +9,10 @@ SEED = 0.5
 MODES = ['training', 'validation']
 NATIONS = ['england', 'scotland']
 
+INPUT_DIR = Pathname.new('input')
+
 MODES.each do |mode|
-  directory "input/#{mode}"
+  directory INPUT_DIR.join(mode)
   NATIONS.each do |nation|
     directory "output/#{mode}/#{nation}"
   end
@@ -65,7 +67,7 @@ end
 MODES.each do |mode|
   content_item_ids(mode).each do |id|
     desc "Prepare #{mode} input file #{id}.json"
-    file "input/#{mode}/#{id}.json" => ["input/#{mode}", 'data/national_applicability.csv'] do |f|
+    file INPUT_DIR.join("#{mode}/#{id}.json") => [INPUT_DIR.join(mode), 'data/national_applicability.csv'] do |f|
       puts "Creating #{f.name}"
       data = raw_data.find {|r| r['id'] == id}
 
@@ -80,14 +82,14 @@ MODES.each do |mode|
 end
 
 desc 'Regenerate all files in input/'
-task :inputs => MODES.flat_map { |mode| content_item_ids(mode).map { |id| "input/#{mode}/#{id}.json" } }
+task :inputs => MODES.flat_map { |mode| content_item_ids(mode).map { |id| INPUT_DIR.join("#{mode}/#{id}.json") } }
 
 MODES.each do |mode|
   NATIONS.each do |nation|
     content_item_ids(mode).each do |id|
       desc "Prepare #{mode} output file #{id}.json"
-      file "output/#{mode}/#{nation}/#{id}.json" => ["output/#{mode}/#{nation}", "input/#{mode}/#{id}.json"] do |f|
-        input = JSON.load_file("input/#{mode}/#{id}.json")
+      file "output/#{mode}/#{nation}/#{id}.json" => ["output/#{mode}/#{nation}", INPUT_DIR.join("#{mode}/#{id}.json")] do |f|
+        input = JSON.load_file(INPUT_DIR.join("#{mode}/#{id}.json"))
         input_text = [input['title'], input['body']].join("\n\n")
 
         prompt = "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to #{nation} and give a short explanation (less than 100 words) for your decision."
@@ -127,7 +129,7 @@ MODES.each do |mode|
         csv << ['id', 'applies_to_nation_input', 'applies_to_nation_output', 'reason']
 
         content_item_ids(mode).each do |id|
-          input_fn = "input/#{mode}/#{id}.json"
+          input_fn = INPUT_DIR.join("#{mode}/#{id}.json")
           output_fn = "output/#{mode}/#{nation}/#{id}.json"
           input_json = JSON.load_file(input_fn)
           output_json = JSON.load_file(output_fn)
@@ -197,4 +199,4 @@ else
   task :default => :setup
 end
 
-CLOBBER.include('output', 'input', 'data')
+CLOBBER.include('output', INPUT_DIR, 'data')
