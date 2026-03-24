@@ -22,7 +22,7 @@ end
 directory DATA_DIR
 
 desc 'Randomly select 250 content ids to use as training data'
-file DATA_DIR.join('training_ids.txt') => [DATA_DIR, DATA_DIR.join('national_applicability.csv')] do |f|
+file DATA_DIR.join('training_ids.txt') => [DATA_DIR.join('national_applicability.csv')] do |f|
   training_ids = raw_data['id'].sample(250, random: Random.new(SEED))
 
   File.open(DATA_DIR.join('training_ids.txt'), 'w') do |file|
@@ -33,7 +33,7 @@ file DATA_DIR.join('training_ids.txt') => [DATA_DIR, DATA_DIR.join('national_app
 end
 
 desc 'Randomly select 250 content ids to use as validation data'
-file DATA_DIR.join('validation_ids.txt') => [DATA_DIR, DATA_DIR.join('national_applicability.csv'), DATA_DIR.join('training_ids.txt')] do |f|
+file DATA_DIR.join('validation_ids.txt') => [DATA_DIR.join('national_applicability.csv'), DATA_DIR.join('training_ids.txt')] do |f|
   validation_ids = raw_data['id'] - content_item_ids
 
   File.open(DATA_DIR.join('validation_ids.txt'), 'w') do |file|
