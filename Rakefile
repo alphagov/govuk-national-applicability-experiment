@@ -84,7 +84,6 @@ MODES.each do |mode|
   content_item_ids(mode).each do |id|
     input_filename = INPUT_DIR.join("#{mode}/#{id}.json")
 
-    desc "Generate #{input_filename} by extracting data from #{NATIONAl_APPLICABILITY_CSV}"
     file input_filename => [INPUT_DIR.join(mode), NATIONAl_APPLICABILITY_CSV] do |f|
       puts "Creating #{f.name}"
       data = raw_data.find {|r| r['id'] == id}
@@ -102,7 +101,6 @@ end
 MODES.each do |mode|
   NATIONS.each do |nation|
     content_item_ids(mode).each do |id|
-      desc "Prepare #{mode} output file #{id}.json"
       file OUTPUT_DIR.join("#{mode}/#{nation}/#{id}.json") => [OUTPUT_DIR.join("#{mode}/#{nation}"), INPUT_DIR.join("#{mode}/#{id}.json")] do |f|
         input = JSON.load_file(INPUT_DIR.join("#{mode}/#{id}.json"))
         input_text = [input['title'], input['body']].join("\n\n")
