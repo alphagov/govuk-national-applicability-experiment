@@ -17,6 +17,29 @@ NATIONAl_APPLICABILITY_CSV = DATA_DIR.join('national_applicability.csv')
 TRAINING_IDS_TXT = DATA_DIR.join('training_ids.txt')
 VALIDATION_IDS_TXT = DATA_DIR.join('validation_ids.txt')
 
+def content_item_ids(mode = 'training')
+  if File.exist?(DATA_DIR.join("#{mode}_ids.txt"))
+    File.readlines(DATA_DIR.join("#{mode}_ids.txt"), chomp: true)
+  else
+    []
+  end
+end
+
+def raw_data
+  @data ||= CSV.read(NATIONAl_APPLICABILITY_CSV, headers: true)
+end
+
+def to_boolean(s)
+  case s.downcase
+  when "t" then true
+  when "f" then false
+  end
+end
+
+def strip_tags(s)
+  Nokogiri.HTML(s).text.gsub(/\\n\s*/, " ")
+end
+
 MODES.each do |mode|
   directory INPUT_DIR.join(mode)
   NATIONS.each do |nation|
@@ -45,29 +68,6 @@ file VALIDATION_IDS_TXT => [NATIONAl_APPLICABILITY_CSV, TRAINING_IDS_TXT] do |f|
       file.puts(id)
     end
   end
-end
-
-def content_item_ids(mode = 'training')
-  if File.exist?(DATA_DIR.join("#{mode}_ids.txt"))
-    File.readlines(DATA_DIR.join("#{mode}_ids.txt"), chomp: true)
-  else
-    []
-  end
-end
-
-def raw_data
-  @data ||= CSV.read(NATIONAl_APPLICABILITY_CSV, headers: true)
-end
-
-def to_boolean(s)
-  case s.downcase
-  when "t" then true
-  when "f" then false
-  end
-end
-
-def strip_tags(s)
-  Nokogiri.HTML(s).text.gsub(/\\n\s*/, " ")
 end
 
 MODES.each do |mode|
