@@ -9,6 +9,7 @@ SEED = 0.5
 MODES = ['training', 'validation']
 NATIONS = ['england', 'scotland']
 
+DATA_DIR = Pathname.new('data')
 INPUT_DIR = Pathname.new('input')
 
 MODES.each do |mode|
@@ -17,13 +18,13 @@ MODES.each do |mode|
     directory "output/#{mode}/#{nation}"
   end
 end
-directory 'data'
+directory DATA_DIR
 
 desc 'Randomly select 250 content ids to use as training data'
-file 'data/training_ids.txt' => ['data', 'data/national_applicability.csv'] do |f|
+file DATA_DIR.join('training_ids.txt') => [DATA_DIR, DATA_DIR.join('national_applicability.csv')] do |f|
   training_ids = raw_data['id'].sample(250, random: Random.new(SEED))
 
-  File.open('data/training_ids.txt', 'w') do |file|
+  File.open(DATA_DIR.join('training_ids.txt'), 'w') do |file|
     training_ids.each do |id|
       file.puts(id)
     end
@@ -31,10 +32,10 @@ file 'data/training_ids.txt' => ['data', 'data/national_applicability.csv'] do |
 end
 
 desc 'Randomly select 250 content ids to use as validation data'
-file 'data/validation_ids.txt' => ['data', 'data/national_applicability.csv', 'data/training_ids.txt'] do |f|
+file DATA_DIR.join('validation_ids.txt') => [DATA_DIR, DATA_DIR.join('national_applicability.csv'), DATA_DIR.join('training_ids.txt')] do |f|
   validation_ids = raw_data['id'] - content_item_ids
 
-  File.open('data/validation_ids.txt', 'w') do |file|
+  File.open(DATA_DIR.join('validation_ids.txt'), 'w') do |file|
     validation_ids.each do |id|
       file.puts(id)
     end
@@ -42,15 +43,15 @@ file 'data/validation_ids.txt' => ['data', 'data/national_applicability.csv', 'd
 end
 
 def content_item_ids(mode = 'training')
-  if File.exist?("data/#{mode}_ids.txt")
-    File.readlines("data/#{mode}_ids.txt", chomp: true)
+  if File.exist?(DATA_DIR.join("#{mode}_ids.txt"))
+    File.readlines(DATA_DIR.join("#{mode}_ids.txt"), chomp: true)
   else
     []
   end
 end
 
 def raw_data
-  @data ||= CSV.read('data/national_applicability.csv', headers: true)
+  @data ||= CSV.read(DATA_DIR.join('national_applicability.csv'), headers: true)
 end
 
 def to_boolean(s)
@@ -67,7 +68,7 @@ end
 MODES.each do |mode|
   content_item_ids(mode).each do |id|
     desc "Prepare #{mode} input file #{id}.json"
-    file INPUT_DIR.join("#{mode}/#{id}.json") => [INPUT_DIR.join(mode), 'data/national_applicability.csv'] do |f|
+    file INPUT_DIR.join("#{mode}/#{id}.json") => [INPUT_DIR.join(mode), DATA_DIR.join('national_applicability.csv')] do |f|
       puts "Creating #{f.name}"
       data = raw_data.find {|r| r['id'] == id}
 
@@ -179,9 +180,9 @@ MODES.each do |mode|
 end
 
 desc 'Prepare input CSV file by querying content store database'
-file 'data/national_applicability.csv' => 'data' do
+file DATA_DIR.join('national_applicability.csv') => DATA_DIR do
   query_file = File.join(File.dirname(__FILE__), 'query.sql')
-  output = File.join(File.dirname(__FILE__), 'data', 'national_applicability.csv')
+  output = DATA_DIR.join('national_applicability.csv')
 
   sh "govuk-docker up -d content-store-lite"
   sh "docker exec -i govuk-docker-content-store-lite-1 rails db < #{query_file} > #{output}"
@@ -189,14 +190,14 @@ file 'data/national_applicability.csv' => 'data' do
 end
 
 desc 'Create input files used to dynamically generate all other tasks'
-task :setup => ['data/training_ids.txt', 'data/validation_ids.txt']
+task :setup => [DATA_DIR.join('training_ids.txt'), DATA_DIR.join('validation_ids.txt')]
 
 task :summaries => MODES.flat_map { |mode| NATIONS.map { |nation| "output/#{mode}/#{nation}/summary.txt" } }
 
-if File.exist?('data/training_ids.txt') && File.exist?('data/validation_ids.txt')
+if File.exist?(DATA_DIR.join('training_ids.txt')) && File.exist?(DATA_DIR.join('validation_ids.txt'))
   task :default => :summaries
 else
   task :default => :setup
 end
 
-CLOBBER.include('output', INPUT_DIR, 'data')
+CLOBBER.include('output', INPUT_DIR, DATA_DIR)
