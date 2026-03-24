@@ -188,11 +188,11 @@ end
 desc 'Create input files used to dynamically generate all other tasks'
 task :setup => [TRAINING_IDS_TXT, VALIDATION_IDS_TXT]
 
-task :summaries => MODES.flat_map { |mode| NATIONS.map { |nation| OUTPUT_DIR.join("#{mode}/#{nation}/summary.txt") } }
-
 if File.exist?(TRAINING_IDS_TXT) && File.exist?(VALIDATION_IDS_TXT)
   desc 'Regenerate all files in input/'
   task :inputs => MODES.flat_map { |mode| content_item_ids(mode).map { |id| INPUT_DIR.join("#{mode}/#{id}.json") } }
+
+  task :summaries => MODES.flat_map { |mode| NATIONS.map { |nation| OUTPUT_DIR.join("#{mode}/#{nation}/summary.txt") } }
 
   task :default => :summaries
 else
