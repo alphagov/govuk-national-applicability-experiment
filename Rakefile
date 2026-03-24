@@ -96,13 +96,17 @@ MODES.each do |mode|
           prompt:,
         }
 
-        stdout, stderr, status = Open3.capture3(
-          'pipenv', 'run', 'llm',
-          '-m', 'openrouter/openai/gpt-4o-mini',
-          '--schema', 'applies_to_nation bool, reason',
-          '--system', prompt,
-          stdin_data: input_text
-        )
+        if ENV['SKIP_LLM'] == 'true'
+          stdout = '{}'
+        else
+          stdout, stderr, status = Open3.capture3(
+            'pipenv', 'run', 'llm',
+            '-m', 'openrouter/openai/gpt-4o-mini',
+            '--schema', 'applies_to_nation bool, reason',
+            '--system', prompt,
+            stdin_data: input_text
+          )
+        end
 
         output_json = JSON.parse(stdout)
         output.merge!(output_json)
