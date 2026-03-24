@@ -13,6 +13,8 @@ DATA_DIR = Pathname.new('data')
 INPUT_DIR = Pathname.new('input')
 OUTPUT_DIR = Pathname.new('output')
 
+NATIONAl_APPLICABILITY_CSV = DATA_DIR.join('national_applicability.csv')
+
 MODES.each do |mode|
   directory INPUT_DIR.join(mode)
   NATIONS.each do |nation|
@@ -22,7 +24,7 @@ end
 directory DATA_DIR
 
 desc 'Randomly select 250 content ids to use as training data'
-file DATA_DIR.join('training_ids.txt') => [DATA_DIR.join('national_applicability.csv')] do |f|
+file DATA_DIR.join('training_ids.txt') => [NATIONAl_APPLICABILITY_CSV] do |f|
   training_ids = raw_data['id'].sample(250, random: Random.new(SEED))
 
   File.open(DATA_DIR.join('training_ids.txt'), 'w') do |file|
@@ -33,7 +35,7 @@ file DATA_DIR.join('training_ids.txt') => [DATA_DIR.join('national_applicability
 end
 
 desc 'Randomly select 250 content ids to use as validation data'
-file DATA_DIR.join('validation_ids.txt') => [DATA_DIR.join('national_applicability.csv'), DATA_DIR.join('training_ids.txt')] do |f|
+file DATA_DIR.join('validation_ids.txt') => [NATIONAl_APPLICABILITY_CSV, DATA_DIR.join('training_ids.txt')] do |f|
   validation_ids = raw_data['id'] - content_item_ids
 
   File.open(DATA_DIR.join('validation_ids.txt'), 'w') do |file|
@@ -52,7 +54,7 @@ def content_item_ids(mode = 'training')
 end
 
 def raw_data
-  @data ||= CSV.read(DATA_DIR.join('national_applicability.csv'), headers: true)
+  @data ||= CSV.read(NATIONAl_APPLICABILITY_CSV, headers: true)
 end
 
 def to_boolean(s)
@@ -69,7 +71,7 @@ end
 MODES.each do |mode|
   content_item_ids(mode).each do |id|
     desc "Prepare #{mode} input file #{id}.json"
-    file INPUT_DIR.join("#{mode}/#{id}.json") => [INPUT_DIR.join(mode), DATA_DIR.join('national_applicability.csv')] do |f|
+    file INPUT_DIR.join("#{mode}/#{id}.json") => [INPUT_DIR.join(mode), NATIONAl_APPLICABILITY_CSV] do |f|
       puts "Creating #{f.name}"
       data = raw_data.find {|r| r['id'] == id}
 
@@ -181,9 +183,9 @@ MODES.each do |mode|
 end
 
 desc 'Prepare input CSV file by querying content store database'
-file DATA_DIR.join('national_applicability.csv') => DATA_DIR do
+file NATIONAl_APPLICABILITY_CSV => DATA_DIR do
   query_file = File.join(File.dirname(__FILE__), 'query.sql')
-  output = DATA_DIR.join('national_applicability.csv')
+  output = NATIONAl_APPLICABILITY_CSV
 
   sh "govuk-docker up -d content-store-lite"
   sh "docker exec -i govuk-docker-content-store-lite-1 rails db < #{query_file} > #{output}"
