@@ -48,6 +48,16 @@ MODES.each do |mode|
 end
 directory DATA_DIR
 
+desc 'Prepare input CSV file by querying content store database'
+file NATIONAl_APPLICABILITY_CSV => DATA_DIR do |f|
+  query_file = File.join(File.dirname(__FILE__), 'query.sql')
+  output = f.name
+
+  sh "govuk-docker up -d content-store-lite"
+  sh "docker exec -i govuk-docker-content-store-lite-1 rails db < #{query_file} > #{output}"
+  sh "govuk-docker down content-store-lite"
+end
+
 desc 'Randomly select 250 content ids to use as training data'
 file TRAINING_IDS_TXT => [NATIONAl_APPLICABILITY_CSV] do |f|
   training_ids = raw_data['id'].sample(250, random: Random.new(SEED))
@@ -182,16 +192,6 @@ MODES.each do |mode|
       end
     end
   end
-end
-
-desc 'Prepare input CSV file by querying content store database'
-file NATIONAl_APPLICABILITY_CSV => DATA_DIR do |f|
-  query_file = File.join(File.dirname(__FILE__), 'query.sql')
-  output = f.name
-
-  sh "govuk-docker up -d content-store-lite"
-  sh "docker exec -i govuk-docker-content-store-lite-1 rails db < #{query_file} > #{output}"
-  sh "govuk-docker down content-store-lite"
 end
 
 desc 'Create input files used to dynamically generate all other tasks'
