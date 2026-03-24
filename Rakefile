@@ -99,9 +99,6 @@ MODES.each do |mode|
   end
 end
 
-desc 'Regenerate all files in input/'
-task :inputs => MODES.flat_map { |mode| content_item_ids(mode).map { |id| INPUT_DIR.join("#{mode}/#{id}.json") } }
-
 MODES.each do |mode|
   NATIONS.each do |nation|
     content_item_ids(mode).each do |id|
@@ -194,6 +191,9 @@ task :setup => [TRAINING_IDS_TXT, VALIDATION_IDS_TXT]
 task :summaries => MODES.flat_map { |mode| NATIONS.map { |nation| OUTPUT_DIR.join("#{mode}/#{nation}/summary.txt") } }
 
 if File.exist?(TRAINING_IDS_TXT) && File.exist?(VALIDATION_IDS_TXT)
+  desc 'Regenerate all files in input/'
+  task :inputs => MODES.flat_map { |mode| content_item_ids(mode).map { |id| INPUT_DIR.join("#{mode}/#{id}.json") } }
+
   task :default => :summaries
 else
   task :default => :setup
