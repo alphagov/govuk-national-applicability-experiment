@@ -48,7 +48,7 @@ MODES.each do |mode|
 end
 directory DATA_DIR
 
-desc 'Prepare input CSV file by querying content store database'
+desc "Generate #{NATIONAl_APPLICABILITY_CSV} by extracting data from content store database"
 file NATIONAl_APPLICABILITY_CSV => DATA_DIR do |f|
   query_file = File.join(File.dirname(__FILE__), 'query.sql')
   output = f.name
@@ -58,7 +58,7 @@ file NATIONAl_APPLICABILITY_CSV => DATA_DIR do |f|
   sh "govuk-docker down content-store-lite"
 end
 
-desc 'Randomly select 250 content ids to use as training data'
+desc "Generate #{TRAINING_IDS_TXT} by randomly selecting 250 IDs from #{NATIONAl_APPLICABILITY_CSV}"
 file TRAINING_IDS_TXT => [NATIONAl_APPLICABILITY_CSV] do |f|
   training_ids = raw_data['id'].sample(250, random: Random.new(SEED))
 
@@ -69,7 +69,7 @@ file TRAINING_IDS_TXT => [NATIONAl_APPLICABILITY_CSV] do |f|
   end
 end
 
-desc 'Randomly select 250 content ids to use as validation data'
+desc "Generate #{VALIDATION_IDS_TXT} by selecting the other 250 IDs from #{NATIONAl_APPLICABILITY_CSV} not in #{TRAINING_IDS_TXT}"
 file VALIDATION_IDS_TXT => [NATIONAl_APPLICABILITY_CSV, TRAINING_IDS_TXT] do |f|
   validation_ids = raw_data['id'] - content_item_ids
 
