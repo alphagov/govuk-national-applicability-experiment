@@ -15,6 +15,7 @@ OUTPUT_DIR = Pathname.new('output')
 
 NATIONAl_APPLICABILITY_CSV = DATA_DIR.join('national_applicability.csv')
 TRAINING_IDS_TXT = DATA_DIR.join('training_ids.txt')
+VALIDATION_IDS_TXT = DATA_DIR.join('validation_ids.txt')
 
 MODES.each do |mode|
   directory INPUT_DIR.join(mode)
@@ -36,10 +37,10 @@ file TRAINING_IDS_TXT => [NATIONAl_APPLICABILITY_CSV] do |f|
 end
 
 desc 'Randomly select 250 content ids to use as validation data'
-file DATA_DIR.join('validation_ids.txt') => [NATIONAl_APPLICABILITY_CSV, TRAINING_IDS_TXT] do |f|
+file VALIDATION_IDS_TXT => [NATIONAl_APPLICABILITY_CSV, TRAINING_IDS_TXT] do |f|
   validation_ids = raw_data['id'] - content_item_ids
 
-  File.open(DATA_DIR.join('validation_ids.txt'), 'w') do |file|
+  File.open(VALIDATION_IDS_TXT, 'w') do |file|
     validation_ids.each do |id|
       file.puts(id)
     end
@@ -194,11 +195,11 @@ file NATIONAl_APPLICABILITY_CSV => DATA_DIR do
 end
 
 desc 'Create input files used to dynamically generate all other tasks'
-task :setup => [TRAINING_IDS_TXT, DATA_DIR.join('validation_ids.txt')]
+task :setup => [TRAINING_IDS_TXT, VALIDATION_IDS_TXT]
 
 task :summaries => MODES.flat_map { |mode| NATIONS.map { |nation| OUTPUT_DIR.join("#{mode}/#{nation}/summary.txt") } }
 
-if File.exist?(TRAINING_IDS_TXT) && File.exist?(DATA_DIR.join('validation_ids.txt'))
+if File.exist?(TRAINING_IDS_TXT) && File.exist?(VALIDATION_IDS_TXT)
   task :default => :summaries
 else
   task :default => :setup
