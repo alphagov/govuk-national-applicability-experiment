@@ -186,12 +186,15 @@ file 'data/national_applicability.csv' => 'data' do
   sh "govuk-docker down content-store-lite"
 end
 
+desc 'Create input files used to dynamically generate all other tasks'
 task :setup => ['data/training_ids.txt', 'data/validation_ids.txt']
+
 task :summaries => MODES.flat_map { |mode| NATIONS.map { |nation| "output/#{mode}/#{nation}/summary.txt" } }
 
-task :default do
-  Rake::Task['setup'].invoke
-  exec('rake', 'summaries')
+if File.exist?('data/training_ids.txt') && File.exist?('data/validation_ids.txt')
+  task :default => :summaries
+else
+  task :default => :setup
 end
 
 CLOBBER.include('output', 'input', 'data')
