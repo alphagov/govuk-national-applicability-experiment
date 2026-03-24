@@ -133,11 +133,7 @@ MODES.each do |mode|
         File.write(f.name, JSON.pretty_generate(output))
       end
     end
-  end
-end
 
-MODES.each do |mode|
-  NATIONS.each do |nation|
     file OUTPUT_DIR.join("#{mode}/#{nation}/results.csv") => content_item_ids(mode).map { |id| OUTPUT_DIR.join("#{mode}/#{nation}/#{id}.json") } do |f|
       puts "Creating #{f.name}"
 
@@ -154,11 +150,7 @@ MODES.each do |mode|
         end
       end
     end
-  end
-end
 
-MODES.each do |mode|
-  NATIONS.each do |nation|
     file OUTPUT_DIR.join("#{mode}/#{nation}/summary.txt") => OUTPUT_DIR.join("#{mode}/#{nation}/results.csv") do |f|
       puts "Creating #{f.name}"
       results = CSV.read(f.prerequisites[0], headers: true)
