@@ -83,31 +83,6 @@ file VALIDATION_IDS_TXT => [NATIONAl_APPLICABILITY_CSV, TRAINING_IDS_TXT] do |f|
 end
 
 MODES.each do |mode|
-  input_files = []
-
-  content_item_ids(mode).each do |id|
-    input_filename = INPUT_DIR.join("#{mode}/#{id}.json")
-
-    file input_filename => [INPUT_DIR.join(mode), NATIONAl_APPLICABILITY_CSV] do |f|
-      puts "Creating #{f.name}"
-      data = raw_data.find {|r| r['id'] == id}
-
-      File.write(f.name, JSON.pretty_generate({
-                  title: data['title'],
-                  body: strip_tags(data['body']),
-                  applies_to_england: to_boolean(data['applies_to_england']),
-                  applies_to_scotland: to_boolean(data['applies_to_scotland'])
-                }))
-    end
-
-    input_files << input_filename
-  end
-
-  desc "Generate all #{mode} input files"
-  task "inputs:#{mode}" => input_files
-end
-
-MODES.each do |mode|
   NATIONS.each do |nation|
     output_files = []
 
@@ -205,6 +180,8 @@ desc 'Create input files used to dynamically generate all other tasks'
 task :setup => [TRAINING_IDS_TXT, VALIDATION_IDS_TXT]
 
 if File.exist?(TRAINING_IDS_TXT) && File.exist?(VALIDATION_IDS_TXT)
+  load 'tasks/inputs.rake'
+
   desc 'Generate all files in input/'
   task :inputs => MODES.map { |mode| "inputs:#{mode}" }
 
