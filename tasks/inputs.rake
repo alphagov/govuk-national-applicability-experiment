@@ -35,3 +35,6 @@ MODES.each do |mode|
   desc "Generate all #{mode} input files"
   task "inputs:#{mode}" => input_files
 end
+
+desc 'Generate all files in input/'
+task :inputs => MODES.map { |mode| "inputs:#{mode}" }
