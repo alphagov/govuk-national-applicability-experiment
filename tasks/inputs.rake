@@ -32,9 +32,9 @@ MODES.each do |mode|
     input_files << input_filename
   end
 
-  desc "Generate all #{mode} input files"
+  desc "Create all #{INPUT_DIR.join(mode).join('*.json')} files"
   task "inputs:#{mode}" => input_files
 end
 
-desc 'Generate all files in input/'
+desc "Create all #{INPUT_DIR.join('**').join('*.json')} files"
 task :inputs => MODES.map { |mode| "inputs:#{mode}" }

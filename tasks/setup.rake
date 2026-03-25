@@ -6,7 +6,7 @@ MODES.each do |mode|
 end
 directory DATA_DIR
 
-desc "Generate #{NATIONAl_APPLICABILITY_CSV} by extracting data from content store database"
+desc "Create #{NATIONAl_APPLICABILITY_CSV} by extracting required data from the content_items table in the content store database"
 file NATIONAl_APPLICABILITY_CSV => DATA_DIR do |f|
   query_file = ROOT_DIR.join('query.sql')
   output = f.name
@@ -16,7 +16,7 @@ file NATIONAl_APPLICABILITY_CSV => DATA_DIR do |f|
   sh "govuk-docker down content-store-lite"
 end
 
-desc "Generate #{TRAINING_IDS_TXT} by randomly selecting 250 IDs from #{NATIONAl_APPLICABILITY_CSV}"
+desc "Create #{TRAINING_IDS_TXT} by randomly selecting 250 IDs from #{NATIONAl_APPLICABILITY_CSV}"
 file TRAINING_IDS_TXT => [NATIONAl_APPLICABILITY_CSV] do |f|
   training_ids = raw_data['id'].sample(250, random: Random.new(SEED))
 
@@ -27,7 +27,7 @@ file TRAINING_IDS_TXT => [NATIONAl_APPLICABILITY_CSV] do |f|
   end
 end
 
-desc "Generate #{VALIDATION_IDS_TXT} by selecting the other 250 IDs from #{NATIONAl_APPLICABILITY_CSV} not in #{TRAINING_IDS_TXT}"
+desc "Create #{VALIDATION_IDS_TXT} by selecting the other 250 IDs from #{NATIONAl_APPLICABILITY_CSV} not in #{TRAINING_IDS_TXT}"
 file VALIDATION_IDS_TXT => [NATIONAl_APPLICABILITY_CSV, TRAINING_IDS_TXT] do |f|
   validation_ids = raw_data['id'] - content_item_ids
 
@@ -38,5 +38,5 @@ file VALIDATION_IDS_TXT => [NATIONAl_APPLICABILITY_CSV, TRAINING_IDS_TXT] do |f|
   end
 end
 
-desc 'Create input files used to dynamically generate all other tasks'
+desc "Create all #{DATA_DIR.join('*')} files used to dynamically generate all other tasks"
 task :setup => [TRAINING_IDS_TXT, VALIDATION_IDS_TXT]

@@ -39,7 +39,7 @@ MODES.each do |mode|
       output_files << output_file
     end
 
-    desc "Generate all #{mode} output files for #{nation}"
+    desc "Create all #{OUTPUT_DIR.join(mode).join(nation).join('*.json')} files"
     task "outputs:#{mode}:#{nation}" => output_files
 
     file OUTPUT_DIR.join("#{mode}/#{nation}/results.csv") => "outputs:#{mode}:#{nation}" do |f|
@@ -94,11 +94,11 @@ MODES.each do |mode|
   end
 end
 
-desc 'Generate output files'
+desc "Create all #{OUTPUT_DIR.join('{mode}/{nation}/*.json')} files"
 task :outputs => MODES.flat_map { |mode| NATIONS.map { |nation| "outputs:#{mode}:#{nation}" } }
 
-desc 'Generate results for each nation for each mode'
+desc "Create all #{OUTPUT_DIR.join('{mode}/{nation}/results.txt')} files"
 task :results => MODES.flat_map { |mode| NATIONS.map { |nation| OUTPUT_DIR.join("#{mode}/#{nation}/results.txt") } }
 
-desc 'Generate summaries for each nation for each mode'
+desc "Create all #{OUTPUT_DIR.join('{mode}/{nation}/summary.txt')} files"
 task :summaries => MODES.flat_map { |mode| NATIONS.map { |nation| OUTPUT_DIR.join("#{mode}/#{nation}/summary.txt") } }
