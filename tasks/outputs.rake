@@ -1,3 +1,5 @@
+require 'open3'
+
 MODES.each do |mode|
   NATIONS.each do |nation|
     output_files = []

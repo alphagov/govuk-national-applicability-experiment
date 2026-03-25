@@ -1,7 +1,6 @@
 require 'json'
 require 'rake/clean'
 require 'csv'
-require 'open3'
 
 SEED = 0.5
 MODES = ['training', 'validation']
