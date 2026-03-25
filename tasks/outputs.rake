@@ -93,3 +93,9 @@ MODES.each do |mode|
     end
   end
 end
+
+desc 'Generate results for each nation for each mode'
+task :results => MODES.flat_map { |mode| NATIONS.map { |nation| OUTPUT_DIR.join("#{mode}/#{nation}/results.txt") } }
+
+desc 'Generate summaries for each nation for each mode'
+task :summaries => MODES.flat_map { |mode| NATIONS.map { |nation| OUTPUT_DIR.join("#{mode}/#{nation}/summary.txt") } }

@@ -37,12 +37,6 @@ if File.exist?(TRAINING_IDS_TXT) && File.exist?(VALIDATION_IDS_TXT)
   load 'tasks/inputs.rake'
   load 'tasks/outputs.rake'
 
-  desc 'Generate results for each nation for each mode'
-  task :results => MODES.flat_map { |mode| NATIONS.map { |nation| OUTPUT_DIR.join("#{mode}/#{nation}/results.txt") } }
-
-  desc 'Generate summaries for each nation for each mode'
-  task :summaries => MODES.flat_map { |mode| NATIONS.map { |nation| OUTPUT_DIR.join("#{mode}/#{nation}/summary.txt") } }
-
   task :default => :summaries
 else
   task :default => :setup
