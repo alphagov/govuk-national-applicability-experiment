@@ -9,9 +9,11 @@ SEED = 0.5
 MODES = ['training', 'validation']
 NATIONS = ['england', 'scotland']
 
-DATA_DIR = Pathname.new('data')
-INPUT_DIR = Pathname.new('input')
-OUTPUT_DIR = Pathname.new('output')
+ROOT_DIR = Pathname.new('.')
+
+DATA_DIR = ROOT_DIR.join('data')
+INPUT_DIR = ROOT_DIR.join('input')
+OUTPUT_DIR = ROOT_DIR.join('output')
 
 NATIONAl_APPLICABILITY_CSV = DATA_DIR.join('national_applicability.csv')
 TRAINING_IDS_TXT = DATA_DIR.join('training_ids.txt')
@@ -50,7 +52,7 @@ directory DATA_DIR
 
 desc "Generate #{NATIONAl_APPLICABILITY_CSV} by extracting data from content store database"
 file NATIONAl_APPLICABILITY_CSV => DATA_DIR do |f|
-  query_file = File.join(File.dirname(__FILE__), 'query.sql')
+  query_file = ROOT_DIR.join('query.sql')
   output = f.name
 
   sh "govuk-docker up -d content-store-lite"
