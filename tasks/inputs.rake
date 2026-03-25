@@ -1,3 +1,10 @@
+def to_boolean(s)
+  case s.downcase
+  when "t" then true
+  when "f" then false
+  end
+end
+
 MODES.each do |mode|
   input_files = []
 

@@ -31,13 +31,6 @@ def raw_data
   @data ||= CSV.read(NATIONAl_APPLICABILITY_CSV, headers: true)
 end
 
-def to_boolean(s)
-  case s.downcase
-  when "t" then true
-  when "f" then false
-  end
-end
-
 def strip_tags(s)
   Nokogiri.HTML(s).text.gsub(/\\n\s*/, " ")
 end
