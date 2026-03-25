@@ -1,7 +1,6 @@
 require 'json'
 require 'rake/clean'
 require 'csv'
-require 'nokogiri'
 require 'open3'
 require 'tempfile'
 
@@ -29,10 +28,6 @@ end
 
 def raw_data
   @data ||= CSV.read(NATIONAl_APPLICABILITY_CSV, headers: true)
-end
-
-def strip_tags(s)
-  Nokogiri.HTML(s).text.gsub(/\\n\s*/, " ")
 end
 
 load 'tasks/setup.rake'

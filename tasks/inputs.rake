@@ -1,8 +1,14 @@
+require 'nokogiri'
+
 def to_boolean(s)
   case s.downcase
   when "t" then true
   when "f" then false
   end
+end
+
+def strip_tags(s)
+  Nokogiri.HTML(s).text.gsub(/\\n\s*/, " ")
 end
 
 MODES.each do |mode|
