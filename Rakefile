@@ -30,9 +30,6 @@ end
 
 load 'tasks/setup.rake'
 
-desc 'Create input files used to dynamically generate all other tasks'
-task :setup => [TRAINING_IDS_TXT, VALIDATION_IDS_TXT]
-
 if File.exist?(TRAINING_IDS_TXT) && File.exist?(VALIDATION_IDS_TXT)
   load 'tasks/inputs.rake'
   load 'tasks/outputs.rake'

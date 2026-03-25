@@ -37,3 +37,6 @@ file VALIDATION_IDS_TXT => [NATIONAl_APPLICABILITY_CSV, TRAINING_IDS_TXT] do |f|
     end
   end
 end
+
+desc 'Create input files used to dynamically generate all other tasks'
+task :setup => [TRAINING_IDS_TXT, VALIDATION_IDS_TXT]
