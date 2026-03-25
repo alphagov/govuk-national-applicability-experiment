@@ -107,8 +107,12 @@ end
 
 MODES.each do |mode|
   NATIONS.each do |nation|
+    output_files = []
+
     content_item_ids(mode).each do |id|
-      file OUTPUT_DIR.join("#{mode}/#{nation}/#{id}.json") => [OUTPUT_DIR.join("#{mode}/#{nation}"), INPUT_DIR.join("#{mode}/#{id}.json")] do |f|
+      output_file = OUTPUT_DIR.join("#{mode}/#{nation}/#{id}.json")
+
+      file output_file => [OUTPUT_DIR.join("#{mode}/#{nation}"), INPUT_DIR.join("#{mode}/#{id}.json")] do |f|
         input = JSON.load_file(INPUT_DIR.join("#{mode}/#{id}.json"))
         input_text = [input['title'], input['body']].join("\n\n")
 
@@ -136,9 +140,14 @@ MODES.each do |mode|
         puts "Creating #{f.name}"
         File.write(f.name, JSON.pretty_generate(output))
       end
+
+      output_files << output_file
     end
 
-    file OUTPUT_DIR.join("#{mode}/#{nation}/results.csv") => content_item_ids(mode).map { |id| OUTPUT_DIR.join("#{mode}/#{nation}/#{id}.json") } do |f|
+    desc "Generate all #{mode} output files for #{nation}"
+    task "outputs:#{mode}:#{nation}" => output_files
+
+    file OUTPUT_DIR.join("#{mode}/#{nation}/results.csv") => "outputs:#{mode}:#{nation}" do |f|
       puts "Creating #{f.name}"
 
       CSV.open(f.name, 'w') do |csv|
