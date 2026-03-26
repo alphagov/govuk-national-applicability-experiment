@@ -158,7 +158,7 @@ Note that even without any changes to the set of input documents you're still _v
 
 ## Limitations of the experiment
 
-We're only selecting documents where a publisher has explicitly indicated that they apply to a subset of the 4 nations of the UK. Which means we've tested this approach against any documents that apply to the whole of the UK.
+We're only selecting documents where a publisher has explicitly indicated that they apply to a subset of the 4 nations of the UK. Which means we haven't tested this approach against any documents that apply to the whole of the UK.
 
 ## Significant Whitehall commits & pull requests
 
