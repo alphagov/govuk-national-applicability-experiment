@@ -16,25 +16,7 @@ We validated the experiment against a held-out set of 250 documents.
 
 ### Results
 
-#### [Results for documents that apply to England in the Training set](./output/training/england/summary.txt)
-
-- true_positive: 235
-- true_negative: 9
-- false_positive: 3
-- false_negative: 3
-- correct: 244
-- incorrect: 6
-
-#### [Results for documents that apply to Scotland in the Training set](./output/training/scotland/summary.txt)
-
-- true_positive: 4
-- true_negative: 227
-- false_positive: 8
-- false_negative: 11
-- correct: 231
-- incorrect: 19
-
-#### [Results for documents that apply to England in the Validation set](./output/validation/england/summary.txt)
+#### [Results for documents that apply to England](./output/validation/england/summary.txt)
 
 - true_positive: 241
 - true_negative: 9
@@ -43,7 +25,7 @@ We validated the experiment against a held-out set of 250 documents.
 - correct: 250
 - incorrect: 0
 
-#### [Results for documents that apply to Scotland in the Validation set](./output/validation/scotland/summary.txt)
+#### [Results for documents that apply to Scotland](./output/validation/scotland/summary.txt)
 
 - true_positive: 12
 - true_negative: 218
@@ -51,6 +33,14 @@ We validated the experiment against a held-out set of 250 documents.
 - false_negative: 10
 - correct: 230
 - incorrect: 20
+
+### Discussion
+
+The results from this experiment show that it is possible to accurately predict the national applicability of documents in the "England" case, and achieve reasonable results in the "Scotland" case. This shows that the text classifier using an LLM approach has some promise for this kind of task.
+
+It's important to note that we only have national applicability metadata in the data sets when a publisher has *explicitly* chosen that the document does not apply to a particular nation. Choosing the "applies to all nations" option in Whitehall means that no national applicability metadata is added to the document. Publishers have to choose one option so this serves as the de facto default choice. A brief look at the results when we included these "applies to all nations" document indicated much worse performance.
+
+This experiment showed us that ideally we'd use clean training data that had been labelled for the purpose of training a classifier. Using "found" data, as we did here, is less reliable.
 
 ## Experiment artefacts in this repo
 
