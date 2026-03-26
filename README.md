@@ -14,6 +14,44 @@ We used a training set of 250 documents published after 1 Jan 2024 to iterate on
 
 We validated the experiment against a held-out set of 250 documents.
 
+### Results
+
+#### [Results for documents that apply to England in the Training set](./output/training/england/summary.txt)
+
+- true_positive: 235
+- true_negative: 9
+- false_positive: 3
+- false_negative: 3
+- correct: 244
+- incorrect: 6
+
+#### [Results for documents that apply to Scotland in the Training set](./output/training/scotland/summary.txt)
+
+- true_positive: 4
+- true_negative: 227
+- false_positive: 8
+- false_negative: 11
+- correct: 231
+- incorrect: 19
+
+#### [Results for documents that apply to England in the Validation set](./output/validation/england/summary.txt)
+
+- true_positive: 241
+- true_negative: 9
+- false_positive: 0
+- false_negative: 0
+- correct: 250
+- incorrect: 0
+
+#### [Results for documents that apply to Scotland in the Validation set](./output/validation/scotland/summary.txt)
+
+- true_positive: 12
+- true_negative: 218
+- false_positive: 10
+- false_negative: 10
+- correct: 230
+- incorrect: 20
+
 ## Experiment artefacts in this repo
 
 For each of the 250 training and 250 validation documents we generate an "input" JSON document containing:
