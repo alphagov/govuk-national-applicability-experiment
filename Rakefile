@@ -12,7 +12,7 @@ DATA_DIR = ROOT_DIR.join('data')
 INPUT_DIR = ROOT_DIR.join('input')
 OUTPUT_DIR = ROOT_DIR.join('output')
 
-NATIONAl_APPLICABILITY_CSV = DATA_DIR.join('national_applicability.csv')
+NATIONAL_APPLICABILITY_CSV = DATA_DIR.join('national_applicability.csv')
 TRAINING_IDS_TXT = DATA_DIR.join('training_ids.txt')
 VALIDATION_IDS_TXT = DATA_DIR.join('validation_ids.txt')
 
@@ -25,7 +25,7 @@ def content_item_ids(mode = 'training')
 end
 
 def raw_data
-  @data ||= CSV.read(NATIONAl_APPLICABILITY_CSV, headers: true)
+  @data ||= CSV.read(NATIONAL_APPLICABILITY_CSV, headers: true)
 end
 
 load 'tasks/setup.rake'

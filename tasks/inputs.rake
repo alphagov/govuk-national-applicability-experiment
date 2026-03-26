@@ -17,7 +17,7 @@ MODES.each do |mode|
   content_item_ids(mode).each do |id|
     input_filename = INPUT_DIR.join("#{mode}/#{id}.json")
 
-    file input_filename => [INPUT_DIR.join(mode), NATIONAl_APPLICABILITY_CSV] do |f|
+    file input_filename => [INPUT_DIR.join(mode), NATIONAL_APPLICABILITY_CSV] do |f|
       puts "Creating #{f.name}"
       data = raw_data.find {|r| r['id'] == id}
 
