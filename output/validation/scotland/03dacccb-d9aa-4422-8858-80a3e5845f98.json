@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The Forestry Commission primarily operates in England, but its policies and reports may not be directly applicable to Scotland, as forestry in Scotland is managed by Forestry and Land Scotland, which has separate regulations and reporting obligations."
+}

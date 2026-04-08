@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "This notice specifically refers to regulations and practices relevant to the UK customs and tariff classification under HMRC, which applies uniformly to England, Wales, and Northern Ireland. It does not address any specific legal or regulatory context for Scotland, as customs and tariff matters are reserved to the UK Parliament."
+}

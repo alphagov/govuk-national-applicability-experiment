@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The Industrial Strategy applies to Scotland as it is part of the UK's overarching economic framework, affecting business investment across all UK nations. While Scotland has its own devolved government and may tailor some policies, the strategy's goals align with enhancing the overall economy, including Scottish businesses."
+}

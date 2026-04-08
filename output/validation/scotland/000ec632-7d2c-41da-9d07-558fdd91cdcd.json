@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "This consultation primarily addresses Statutory Sick Pay (SSP) in England, which is governed by UK-wide legislation. However, Scotland has its own distinct social security system and may have different or additional provisions concerning sick pay, thus it does not directly apply to Scotland."
+}

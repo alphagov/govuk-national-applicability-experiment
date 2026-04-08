@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "This document pertains specifically to the Ministry of Defence, which is a reserved matter in the UK. While it may involve officials who interact across the UK, it does not represent a policy or service that directly applies to Scotland, as defense is not a devolved matter."
+}

@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
-  "applies_to_nation": false,
-  "reason": "This document primarily addresses funding and educational frameworks specific to England, such as the Early Career Framework and Teacher Mentoring Programme, which are not applicable in Scotland where education policy is devolved."
+  "applies_to_nation": true,
+  "reason": "The updates pertain to education funding and frameworks that are applicable to England, but similar frameworks exist in Scotland. While the specific programs mentioned may differ, the overarching topics of early career teacher support and funding for education are relevant to both nations, reflecting a shared interest in educational development."
 }

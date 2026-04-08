@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The NHS Pension Scheme primarily operates in England and is governed by regulations specific to England, although it has counterparts in Scotland, Wales, and Northern Ireland. However, this report is relevant to the management and understanding of the NHS Pension Scheme within England."
+}

@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The report specifically addresses the implementation of recommendations related to the UK as a whole and includes references to agencies primarily operating in England, such as the Metropolitan Police and the National Crime Agency. Scotland has its own distinct legal and law enforcement frameworks, making the content of this report less directly applicable to Scottish governance."
+}

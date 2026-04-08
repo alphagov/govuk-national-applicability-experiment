@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The Local Authority Housing Fund is a UK government initiative aimed at providing councils in England with financial support to improve temporary accommodation and assist with housing needs, specifically mentioned in the context of the Afghan Resettlement Programme."
+  "reason": "This document applies to England as the Local Authority Housing Fund is a UK government initiative specifically aimed at English local councils to address housing and accommodation needs."
 }

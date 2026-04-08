@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The Foreign, Commonwealth & Development Office is a UK government department that operates across all of the UK, but its spending reports do not specifically apply to Scotland, as they are national in scope and not devolved matters."
+}

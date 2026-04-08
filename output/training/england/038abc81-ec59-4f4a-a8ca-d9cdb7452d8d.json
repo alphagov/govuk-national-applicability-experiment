@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document pertains to a school located in Birmingham, which is in England. Therefore, it applies to England."
+  "reason": "This document pertains to St Edward's Catholic Primary School, which is located in Birmingham, England. As it involves a school under Birmingham City Council and references English educational regulations, it is relevant to England."
 }

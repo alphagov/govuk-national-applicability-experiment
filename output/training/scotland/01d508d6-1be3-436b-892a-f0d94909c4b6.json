@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
-  "applies_to_nation": true,
-  "reason": "The statistic regards retail sales across Great Britain, which includes England, Scotland, and Wales. The data collected affects economic understanding and decision-making within all these nations."
+  "applies_to_nation": false,
+  "reason": "The document specifically references 'Great Britain,' which includes England, Wales, and Scotland. However, as it concerns retail sales statistics that are typically managed separately, these statistics may not reflect all aspects of Scottish retail sales as reported by the Scottish Government."
 }

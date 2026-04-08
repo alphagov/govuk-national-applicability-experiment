@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "This document pertains to official statistics and their implications on the UK economy, which are relevant to all nations of the UK, including Scotland. It addresses economic impacts and insights that affect the entire UK economy."
+}

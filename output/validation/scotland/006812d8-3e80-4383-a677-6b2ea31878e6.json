@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "The document primarily pertains to regulations and expectations for registered housing providers in England. It does not reference any specific legislative or regulatory framework that applies to Scotland, where housing regulations can differ significantly."
+  "reason": "The 'Transparency, Influence and Accountability Standard' pertains specifically to housing regulations in England, and while some principles may align with broader UK standards, the legal framework for housing in Scotland differs significantly, including distinct regulations and standards enforced by the Scottish Government."
 }

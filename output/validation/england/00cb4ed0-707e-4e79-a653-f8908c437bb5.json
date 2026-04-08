@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document pertains to funding allocations which typically affect local authorities and public services in England. Hence, it is applicable to England."
+  "reason": "The document pertains to a funding allocation process that typically applies to England's local authorities and public services, which are affected by multi-year financial settlements from the UK government."
 }

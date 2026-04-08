@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The document pertains to the Home Office and the advice on Business Appointment Rules, which are relevant to the UK government as a whole but does not specifically address matters or regulations that apply to Scotland."
+}

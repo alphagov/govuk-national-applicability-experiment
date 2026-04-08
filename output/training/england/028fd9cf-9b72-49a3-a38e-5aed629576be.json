@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The report pertains to digital identity services governed by the UK digital identity and attributes trust framework, which applies to the entire UK, including England. It discusses mandatory inclusive monitoring surveys that are required for certified digital verification services, relevant to all nations in the UK."
+}

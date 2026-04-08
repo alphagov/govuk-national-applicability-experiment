@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This guidance is relevant to all UK government lawyers, including those in England, as it pertains to legal advice and compliance with the law within government operations."
+  "reason": "This guidance applies to England as it pertains to government lawyers advising Ministers, which is a role primarily associated with the UK government operating out of England."
 }

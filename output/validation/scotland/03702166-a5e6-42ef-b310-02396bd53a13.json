@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "This document specifically addresses UK and EU economic implications of emission trading schemes, which are not directly devolved matters for Scotland. Instead, Scotland has its own distinct climate policies and frameworks that may differ from UK-wide initiatives."
+}

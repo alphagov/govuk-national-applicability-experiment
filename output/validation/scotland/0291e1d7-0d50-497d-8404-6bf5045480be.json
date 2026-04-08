@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "This document is a generic facilitation worksheet related to the Three Horizons exercise and does not pertain to any specific legal or governance framework in Scotland, nor does it address local policies or contexts that would necessitate a specific application."
+}

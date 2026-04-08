@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document specifically pertains to the staffing and workforce statistics of HM Prison and Probation Service in England and Wales, and does not cover Scotland's prison and probation services, which operate under separate legislation and administration."
+  "reason": "This publication specifically pertains to the staffing statistics of the HM Prison and Probation Service in England and Wales only, and does not apply to Scotland, as the prison and probation services in Scotland are managed separately under the Scottish Government."
 }

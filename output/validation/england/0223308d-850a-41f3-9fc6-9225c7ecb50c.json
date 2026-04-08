@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "This document applies to England as HM Treasury is a department of the UK government based in London, responsible for economic and financial matters in the UK, including England."
+}

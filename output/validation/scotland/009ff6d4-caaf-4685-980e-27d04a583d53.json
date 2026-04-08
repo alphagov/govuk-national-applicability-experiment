@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "This document specifically addresses Private Finance Initiative (PFI) projects in England. PFI projects are primarily a concern of the English public finance system, and the issues discussed do not apply to Scotland, where different frameworks and regulations govern public infrastructure."
+}

@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document pertains specifically to England and Wales under the Electricity Act 1989 and the Environmental Impact Assessment Regulations 2017. It does not apply to Scotland."
+  "reason": "This document pertains specifically to the Electricity Works (Environmental Impact Assessment) Regulations 2017 which apply only to England and Wales, and does not include any provisions or relevance to Scotland."
 }

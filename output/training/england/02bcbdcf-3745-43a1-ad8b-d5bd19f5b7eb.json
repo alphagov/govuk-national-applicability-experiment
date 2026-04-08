@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This document pertains to Rotherham Metropolitan Borough Council, which is located in England, and involves the Environment Agency's public consultation process on water abstraction and impoundment applications. Therefore, it applies to England."
+  "reason": "This document pertains to the Rotherham Metropolitan Borough Council, which is located in England. The Environment Agency operates in England, and the regulations regarding water abstraction and impoundment are applicable within this region."
 }

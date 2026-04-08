@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The document pertains to the granting of carbon dioxide transport and storage licences under the Energy Act 2023, which applies to England. The Secretary of State for Energy Security and Net Zero is a UK governmental role that oversees energy matters in England, and therefore the proposal is relevant to this nation."
+}

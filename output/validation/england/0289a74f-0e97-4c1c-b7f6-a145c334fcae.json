@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "This document applies to England as it provides information relevant to UK citizens, including guidance from the Foreign, Commonwealth and Development Office (FCDO) regarding procedures and support when a British citizen dies abroad, specifically in Iran. The information is relevant for residents of England in understanding their rights and responsibilities during such circumstances."
+}

@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "This document relates to the Merchant Shipping Notice which is applicable in England as part of the UK regulatory framework for maritime safety and compliance. The regulations cited are enforced by the UK government, thereby making it relevant for shipowners and operators within England."
+}

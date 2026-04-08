@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The guidance on climate scenario analysis pertains to public sector organisations, which exists in Scotland as part of the UK's approach to climate risk management. Scottish public bodies are encouraged to assess climate risks and align with frameworks such as the TCFD, making this guidance relevant for implementation in Scotland."
+}

@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This guidance pertains specifically to England's Department for Education and does not extend to Scotland, which has its own education and funding systems."
+  "reason": "This guidance specifically mentions funding and allocations relevant to England, and the Department for Education (DfE) operates primarily within England. Scotland has its own education system and funding mechanisms."
 }

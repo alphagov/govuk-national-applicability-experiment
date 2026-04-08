@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The statistics provided pertain to the NHS, which operates across the UK, including Scotland. NHS staff in Scotland also contribute to and are reflected in the overall sickness absence rates for NHS organizations."
+}

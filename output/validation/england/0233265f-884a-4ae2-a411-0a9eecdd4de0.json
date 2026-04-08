@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "This document details the process for claiming back income tax on a pension death benefit payment in the UK, specifically under HM Revenue and Customs regulations, which apply to England as part of the wider UK tax system."
+}

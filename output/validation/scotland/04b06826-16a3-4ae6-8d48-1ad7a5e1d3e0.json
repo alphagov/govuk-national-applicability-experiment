@@ -1,5 +1,0 @@
-{
-  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
-  "applies_to_nation": false,
-  "reason": "The Heat-Health Alerting system specifically targets England and is part of the UK's response framework for hot weather impacts on health, making it not applicable to Scotland, which has its own health and climate emergency protocols."
-}

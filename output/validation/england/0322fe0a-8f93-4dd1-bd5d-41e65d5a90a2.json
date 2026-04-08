@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The Communications Act 2003 and its provisions primarily affect England, as it is UK legislation applicable to all territories but implemented through the UK Parliament. The Secretary of State's report is relevant within the governance framework that includes England."
+}

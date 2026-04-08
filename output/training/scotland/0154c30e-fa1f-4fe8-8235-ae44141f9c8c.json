@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "This update on Making Tax Digital for Income Tax applies only to England, Wales, and Northern Ireland. Scotland has devolved powers over tax and operates its own tax system, separate from the UK system."
+}

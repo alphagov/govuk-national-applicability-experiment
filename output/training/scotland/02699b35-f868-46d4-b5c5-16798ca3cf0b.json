@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "This guidance is specifically targeted at non-UK businesses regarding UK sanctions, primarily focusing on compliance mechanisms and risks pertinent to entities dealing with Russia. It does not invoke Scottish law or governance, as it pertains to regulations set by the UK government and international sanctions, which may affect Scotland indirectly through broader UK regulations."
+}

@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "This document applies to England as it outlines the regulations and guidance provided by the Maritime and Coastguard Agency (MCA), which operates within the regulatory framework for maritime safety and environmental protection in England."
+}

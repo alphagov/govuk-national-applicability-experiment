@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "This document applies to England as it pertains to guidance for government departments and Arm's Length Bodies (ALBs) that operate under UK government policy, which primarily applies to England's administrative framework for research and development funding."
+}

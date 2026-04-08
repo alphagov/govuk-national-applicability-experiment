@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "This document pertains to the Merchant Shipping regulations, which are applicable in England, as well as the wider UK. The guidance is specifically aimed at domestic passenger ship owners and related entities, indicating its relevance to maritime operations within English waters."
+}

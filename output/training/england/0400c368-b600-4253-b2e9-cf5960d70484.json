@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The draft assessment procedures outlined for communal distribution networks pertain to heat network regulations, which are primarily governed at the UK level and applicable in England."
+  "reason": "These procedures relate to heat network regulations and standards that apply within England, specifically regarding the installation and assessment of communal distribution networks in new builds."
 }

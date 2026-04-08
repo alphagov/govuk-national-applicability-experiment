@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "The document pertains to occupational defined benefit pension schemes, which are primarily regulated under UK-wide laws, but specific regulations vary by nation. Scotland has its own pension regulations that may not be fully represented in this UK-focused overview."
+}

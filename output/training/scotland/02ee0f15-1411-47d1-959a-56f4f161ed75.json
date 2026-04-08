@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The statistics on investment in intangible assets apply to the whole UK, including Scotland, as they are relevant to economic indicators and business performance across all nations within the UK."
+}

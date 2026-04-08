@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "The report focuses on youth justice services in England and Wales, and does not include specific references or implications for Scotland's distinct legal and youth justice systems."
+  "reason": "The report specifically addresses youth justice services and public disorder incidents that occurred in England, and there is no indication that it includes or is relevant to the specific context or legal frameworks of Scotland."
 }

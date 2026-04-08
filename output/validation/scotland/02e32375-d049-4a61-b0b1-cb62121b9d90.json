@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The publication on student loans is relevant to Scotland as it pertains to the Scottish government's policies and financial support systems for students in Scotland."
+  "reason": "The document pertains to student loans, which are governed by the Scottish government and relevant to the education system in Scotland, thus it applies to Scotland."
 }

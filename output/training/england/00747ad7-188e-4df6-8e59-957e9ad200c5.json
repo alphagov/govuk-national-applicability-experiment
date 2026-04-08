@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "This document pertains to marine equipment and safety regulations under the Merchant Shipping framework, which is a matter devolved mainly to England. It provides guidance relevant to manufacturers and operators within the UK's marine industry, thereby applying to England."
+}

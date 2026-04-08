@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "This report pertains to England as it specifically focuses on the Probation Service, which operates under the jurisdiction of England and Wales. It examines the use of predictive algorithms and risk factors within the context of the probation system, indicating its relevance to the criminal justice framework in England."
+  "reason": "The report pertains to the Probation Service, which operates in England and is governed by laws and practices relevant to the nation. It addresses issues directly related to public safety and criminal justice within this jurisdiction."
 }

@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The document outlines details related to Cold Weather Payments, which are applicable in England and also mentions estimates for Wales. Thus, it is relevant to England."
+  "reason": "The document pertains to the Cold Weather Payment scheme, which is applicable in England as well as Wales, and provides information relevant to residents in these areas for the specified season."
 }

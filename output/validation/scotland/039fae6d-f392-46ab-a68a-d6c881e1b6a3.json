@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": true,
+  "reason": "The Integrated Urgent Care Aggregate Data Collection is relevant to Scotland as it pertains to the NHS services operating in the UK, including the delivery of urgent care services which are utilized across all nations, although specific implementation may vary."
+}

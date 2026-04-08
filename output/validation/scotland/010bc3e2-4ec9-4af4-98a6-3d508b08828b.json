@@ -1,5 +1,0 @@
-{
-  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
-  "applies_to_nation": false,
-  "reason": "This document specifically addresses regulations and initiatives enacted under the Building Safety Act 2022 and related legislation, which are applicable only in England. Scotland has its own distinct building safety regulations under the Building (Scotland) Act 2003, and different safety frameworks for construction."
-}

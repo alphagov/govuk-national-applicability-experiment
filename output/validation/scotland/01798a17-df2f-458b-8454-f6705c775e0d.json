@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The FMP explicitly states that it covers stocks in both English and Scottish waters and was prepared in collaboration with the Scottish Government."
+  "reason": "The document specifically mentions that the North Sea and Channel sprat fisheries management plan (FMP) covers stocks in both English and Scottish waters, indicating its relevance and applicability to Scotland."
 }

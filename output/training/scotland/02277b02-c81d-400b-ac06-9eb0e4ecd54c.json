@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document specifically pertains to data on physical health checks for individuals with severe mental illness in England and does not reference or include Scotland's healthcare system or policies."
+  "reason": "This document specifically addresses health data and practices that apply in England and does not mention or include provisions for Scotland, where health services and reporting may differ."
 }

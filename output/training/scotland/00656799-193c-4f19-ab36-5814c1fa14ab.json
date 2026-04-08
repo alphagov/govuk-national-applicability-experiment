@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "This document focuses on value for money metrics and reporting within the context of registered providers which primarily applies to England. It does not directly address the specific frameworks or regulations in place for Scotland."
+}

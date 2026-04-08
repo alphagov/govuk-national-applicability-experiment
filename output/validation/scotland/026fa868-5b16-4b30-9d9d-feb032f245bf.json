@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "The statistics provided pertain specifically to Great Britain and are based on data from the Department for Transport, which does not include Scotland, as transport is a devolved matter."
+  "reason": "These statistics pertain specifically to Great Britain as a whole, which encompasses England and Wales, but not Scotland. Scotland has its own transport regulations and statistics separate from those of the Department for Transport in Great Britain."
 }

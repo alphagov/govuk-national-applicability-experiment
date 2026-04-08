@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": false,
-  "reason": "This document pertains specifically to employment vacancies notified to the Department for Communities in Northern Ireland (DfC). It does not apply to Scotland as it is not related to any Scottish department or employment data."
+  "reason": "The document pertains specifically to employment vacancies notified to the Department for Communities (DfC) in Northern Ireland, and does not apply to the other nations of the UK including Scotland."
 }

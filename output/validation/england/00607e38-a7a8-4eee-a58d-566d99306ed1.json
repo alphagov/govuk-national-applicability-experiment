@@ -1,5 +1,5 @@
 {
   "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to england and give a short explanation (less than 100 words) for your decision.",
   "applies_to_nation": true,
-  "reason": "The Boiler Upgrade Scheme statistics pertain to the UK government's initiative aimed at improving energy efficiency and reducing carbon emissions in domestic properties, which is a program applicable to England."
+  "reason": "The Boiler Upgrade Scheme is a UK government initiative, which applies across England. Therefore, the statistics related to this scheme are relevant and applicable to England."
 }

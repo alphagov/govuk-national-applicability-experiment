@@ -1,0 +1,5 @@
+{
+  "prompt": "This document is to be published on the UK GOV.UK government website. It may apply to one or more of the nations of the UK (England, Wales, Scotland or Northern Ireland). State whether it applies to scotland and give a short explanation (less than 100 words) for your decision.",
+  "applies_to_nation": false,
+  "reason": "This document pertains specifically to tariff classifications and regulations that apply to Northern Ireland and are based on EU regulations which do not extend to Scotland. Therefore, the contents are not applicable to Scotland."
+}
